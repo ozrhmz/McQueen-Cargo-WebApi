@@ -1,0 +1,5 @@
+2023-10-02 22:10:01.6573 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-10-02T19:10:01.6045701Z"}
+2023-10-02 22:10:13.4364 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-10-02T19:10:13.436356Z"}
+2023-10-02 22:47:53.9246 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-10-02T19:47:53.8860845Z"}
+2023-10-02 22:48:07.1795 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-10-02T19:48:07.1794384Z"}
+2023-10-02 23:09:27.5901 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-10-02T20:09:27.590059Z"}

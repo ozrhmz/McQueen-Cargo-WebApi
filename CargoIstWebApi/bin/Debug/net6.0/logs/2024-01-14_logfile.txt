@@ -1,0 +1,141 @@
+2024-01-14 09:58:45.1647 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T06:58:45.1182499Z"}
+2024-01-14 10:00:51.1733 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-14T07:00:51.173335Z"}
+2024-01-14 10:01:28.5129 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentation.Controllers.AddressController.DeleteOneAddressAsync (Presentation). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-14 10:01:30.0340 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T07:01:30.0334715Z"}
+2024-01-14 10:02:23.3222 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T07:02:23.3216268Z"}
+2024-01-14 10:04:09.8887 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T07:04:09.8664452Z"}
+2024-01-14 10:05:09.6144 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T07:05:09.5939082Z"}
+2024-01-14 10:06:42.4224 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T07:06:42.4002608Z"}
+2024-01-14 10:11:55.3974 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-14T07:11:55.3778088Z"}
+2024-01-14 10:12:47.8877 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-14T07:12:47.8676392Z"}
+2024-01-14 10:13:44.9928 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-14T07:13:44.9721956Z"}
+2024-01-14 10:27:55.0890 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-14T07:27:55.0687674Z"}
+2024-01-14 10:32:03.8100 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T07:32:03.7895687Z"}
+2024-01-14 10:32:16.3347 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2024-01-14T07:32:16.3347445Z"}
+2024-01-14 10:32:51.7162 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-14T07:32:51.7162749Z"}
+2024-01-14 10:33:50.4743 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-14T07:33:50.4537944Z"}
+2024-01-14 10:34:26.0539 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-14T07:34:26.0339484Z"}
+2024-01-14 10:43:18.8242 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2024-01-14T07:43:18.8033253Z"}
+2024-01-14 10:44:00.0987 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:44:00.0986608Z"}
+2024-01-14 10:44:07.3630 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:44:07.3629808Z"}
+2024-01-14 10:44:10.1868 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:44:10.1868494Z"}
+2024-01-14 10:44:50.3393 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:44:50.3393066Z"}
+2024-01-14 10:46:55.7740 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:46:55.7544118Z"}
+2024-01-14 10:49:21.9763 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:49:21.9403393Z"}
+2024-01-14 10:50:32.4804 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:50:32.4584933Z"}
+2024-01-14 10:53:41.9509 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-14T07:53:41.9288736Z"}
+2024-01-14 11:49:49.9577 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T08:49:49.9328322Z"}
+2024-01-14 11:51:36.6875 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T08:51:36.6874529Z"}
+2024-01-14 11:53:28.9541 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T08:53:28.9535109Z"}
+2024-01-14 11:54:01.7874 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-14T08:54:01.7874185Z"}
+2024-01-14 11:54:53.6005 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T08:54:53.6004842Z"}
+2024-01-14 11:56:07.1330 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-14T08:56:07.1322046Z"}
+2024-01-14 11:56:57.2536 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T08:56:57.2536385Z"}
+2024-01-14 11:57:01.9580 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-14T08:57:01.9580407Z"}
+2024-01-14 12:01:01.6176 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-14T09:01:01.6170727Z"}
+2024-01-14 12:01:29.5386 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T09:01:29.5385875Z"}
+2024-01-14 12:01:49.2719 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-14T09:01:49.2718991Z"}
+2024-01-14 12:02:35.0238 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:02:35.0238596Z"}
+2024-01-14 12:03:02.7779 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-14T09:03:02.7778901Z"}
+2024-01-14 12:03:07.3345 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-14T09:03:07.3345169Z"}
+2024-01-14 12:05:41.6387 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T09:05:41.6167225Z"}
+2024-01-14 12:05:44.6596 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CallCourierNotFoundException: The call courier with id:7 could not found.
+   at Services.CallCourierManager.GetOneCallCourierAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 74
+   at Services.CallCourierManager.UpdateOneCallCourierAsync(Int32 id, CallCourierDtoForUpdate callCourierDto, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 61
+   at Presentation.Controllers.CallCourierController.UpdateOneCallCourier(Int32 id, CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-14 12:05:53.1238 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-14T09:05:53.1237652Z"}
+2024-01-14 12:08:07.6213 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T09:08:07.620719Z"}
+2024-01-14 12:11:37.9921 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-14T09:11:37.9916272Z"}
+2024-01-14 12:14:59.8715 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:14:59.8703177Z"}
+2024-01-14 12:16:00.5440 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:16:00.5440313Z"}
+2024-01-14 12:16:27.9090 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:16:27.9089635Z"}
+2024-01-14 12:16:54.1596 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:16:54.159656Z"}
+2024-01-14 12:17:55.0502 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:17:55.0502125Z"}
+2024-01-14 12:25:23.1482 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:25:23.1482406Z"}
+2024-01-14 12:30:43.1512 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T09:30:43.1231973Z"}
+2024-01-14 12:31:37.2244 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T09:31:37.2040802Z"}
+2024-01-14 12:32:26.1140 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T09:32:26.0936856Z"}
+2024-01-14 12:35:51.3614 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-14T09:35:51.3381001Z"}
+2024-01-14 12:37:33.1422 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesOkByEmployeeId","Id":null,"CreateAt":"2024-01-14T09:37:33.142241Z"}
+2024-01-14 14:25:45.4743 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:25:45.4537415Z"}
+2024-01-14 14:26:05.4823 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:26:05.4822735Z"}
+2024-01-14 14:26:57.4782 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:26:57.4548507Z"}
+2024-01-14 14:27:28.2204 ERROR Something went wrong: System.InvalidOperationException: Cannot apply the 'Include' operation with argument 'x => x.Country'. Either the source is not a queryable of a known entity type or 'Include' has been applied after 'Select' method which projects a different entity type through navigation. Consider applying 'Include' before 'Select' method call.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Repositories.EFCore.EmployeesRepository.GetCargoesByEmployeeIdAsync(Int32 employeeId) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Repositories\EFCore\EmployeesRepository.cs:line 39
+   at Services.EmployeeManager.GetCargoesByEmployeeIdAsync(Int32 EmployeeId) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\EmployeeManager.cs:line 122
+   at Presentation.Controllers.EmployeeController.GetCargoesByEmployeeId(Int32 EmployeeId) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\EmployeeController.cs:line 59
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-14 14:28:20.6061 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:28:20.5580422Z"}
+2024-01-14 14:32:13.7276 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:32:13.7042326Z"}
+2024-01-14 14:46:22.2872 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:46:22.2660586Z"}
+2024-01-14 14:47:08.1596 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:47:08.1370235Z"}
+2024-01-14 14:48:31.3744 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:48:31.3537217Z"}
+2024-01-14 14:50:39.0042 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:50:38.9831612Z"}
+2024-01-14 14:52:11.6898 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-14T11:52:11.6682794Z"}
+2024-01-14 17:08:33.4713 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetOneEmployee","Id":null,"CreateAt":"2024-01-14T14:08:33.452208Z"}
+2024-01-14 17:09:46.6845 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetOneEmployee","Id":null,"CreateAt":"2024-01-14T14:09:46.6845103Z"}
+2024-01-14 17:09:55.0233 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetOneEmployee","Id":null,"CreateAt":"2024-01-14T14:09:55.023344Z"}

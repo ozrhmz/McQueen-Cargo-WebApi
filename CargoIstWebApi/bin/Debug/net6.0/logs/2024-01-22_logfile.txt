@@ -1,0 +1,1 @@
+2024-01-22 22:52:07.2144 WARN ValidateUser : Authentication failed. Wrong username or password

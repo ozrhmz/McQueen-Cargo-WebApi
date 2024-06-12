@@ -1,0 +1,1 @@
+2023-11-21 12:18:49.6060 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-11-21T09:18:49.5540369Z"}

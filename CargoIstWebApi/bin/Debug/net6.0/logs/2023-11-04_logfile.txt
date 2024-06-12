@@ -1,0 +1,42 @@
+2023-11-04 22:20:22.8423 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-11-04T19:20:22.8189334Z"}
+2023-11-04 22:20:26.5757 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.CustomerMobil, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTO_s.CustomerMobil.CustomerMobilDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CustomerMobil -> CustomerMobilDto
+Entities.Models.CustomerMobil -> Entities.DTO_s.CustomerMobil.CustomerMobilDto
+   at lambda_method178(Closure , CustomerMobil , CustomerMobilDto , ResolutionContext )
+   at lambda_method177(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method177(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at Services.CustomerMobilManager.GetAllCustomersAsync(CustomerMobilParameters customerMobilParameters, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\CustomerMobilManager.cs:line 45
+   at Presentation.Controllers.CustomerMobilController.GetAllCustomerMobilAsync(CustomerMobilParameters customerMobilParameters) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\CustomerMobilController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-04 22:24:02.8291 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-11-04T19:24:02.8065342Z"}
+2023-11-04 22:41:43.1933 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-11-04T19:41:43.1744825Z"}
+2023-11-04 22:41:53.9134 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":"3","CreateAt":"2023-11-04T19:41:53.9133212Z"}
+2023-11-04 22:42:09.2363 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UpdateOneCustomer","Id":"3","CreateAt":"2023-11-04T19:42:09.2362861Z"}
+2023-11-04 22:42:14.3755 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":"3","CreateAt":"2023-11-04T19:42:14.3755192Z"}
+2023-11-04 22:42:29.7867 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-11-04T19:42:29.7867112Z"}
+2023-11-04 22:43:30.1234 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-11-04T19:43:30.1028311Z"}
+2023-11-04 22:44:55.6430 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-11-04T19:44:55.6234316Z"}

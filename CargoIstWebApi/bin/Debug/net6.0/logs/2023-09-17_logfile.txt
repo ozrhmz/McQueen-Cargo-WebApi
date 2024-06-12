@@ -1,0 +1,48 @@
+2023-09-17 09:55:41.5209 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:55:41.4834866Z"}
+2023-09-17 09:55:47.5971 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:55:47.5971025Z"}
+2023-09-17 09:56:06.0488 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:06.0488066Z"}
+2023-09-17 09:56:13.0459 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:13.0458847Z"}
+2023-09-17 09:56:34.0634 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:34.0633549Z"}
+2023-09-17 09:56:48.4453 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:48.4452922Z"}
+2023-09-17 09:56:53.2284 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:53.2284489Z"}
+2023-09-17 09:56:58.8472 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:56:58.8471837Z"}
+2023-09-17 09:57:27.9317 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:57:27.9317061Z"}
+2023-09-17 09:57:37.1333 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:57:37.1332973Z"}
+2023-09-17 09:57:46.2059 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:57:46.2059073Z"}
+2023-09-17 09:58:16.7911 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T06:58:16.7910785Z"}
+2023-09-17 10:06:36.7657 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:06:36.7548002Z"}
+2023-09-17 10:07:11.6845 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:07:11.6844536Z"}
+2023-09-17 10:07:23.1991 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:07:23.1991431Z"}
+2023-09-17 10:07:28.8673 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:07:28.8673422Z"}
+2023-09-17 10:07:34.6575 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:07:34.6574678Z"}
+2023-09-17 10:07:34.7663 ERROR Something went wrong: System.ArgumentException: Value cannot be empty. (Parameter 'ordering')
+   at System.Linq.Dynamic.Core.Validation.Check.NotNullOrWhiteSpace(String value, String parameterName)
+   at System.Linq.Dynamic.Core.DynamicQueryableExtensions.InternalOrderBy(IQueryable source, ParsingConfig config, String ordering, Object comparer, Object[] args)
+   at System.Linq.Dynamic.Core.DynamicQueryableExtensions.OrderBy(IQueryable source, ParsingConfig config, String ordering, Object[] args)
+   at System.Linq.Dynamic.Core.DynamicQueryableExtensions.OrderBy[TSource](IQueryable`1 source, ParsingConfig config, String ordering, Object[] args)
+   at System.Linq.Dynamic.Core.DynamicQueryableExtensions.OrderBy[TSource](IQueryable`1 source, String ordering, Object[] args)
+   at Repositories.EFCore.Extensions.CustomerRepositoryExtensions.Sort(IQueryable`1 customers, String orderByQueryString) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Repositories\EFCore\Extensions\CustomerRepositoryExtensions.cs:line 36
+   at Repositories.EFCore.CustomerRepository.GetAllCustomersAsync(CustomerParameters customerParameters, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Repositories\EFCore\CustomerRepository.cs:line 20
+   at Services.CustomerManager.GetAllCustomersAsync(CustomerParameters customerParameters, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 43
+   at Presentation.Controllers.CustomerController.GetAllCustomersAsync(CustomerParameters customerParameters) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\CustomerController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-17 10:07:46.0401 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:07:46.0401629Z"}
+2023-09-17 10:45:50.3422 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:45:50.332757Z"}
+2023-09-17 10:47:11.8120 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:47:11.8120192Z"}
+2023-09-17 10:47:26.0215 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:47:26.0215492Z"}
+2023-09-17 10:47:32.4773 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:47:32.4773204Z"}
+2023-09-17 10:47:37.3055 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-17T07:47:37.3054561Z"}

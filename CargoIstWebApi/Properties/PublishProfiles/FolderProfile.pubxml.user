@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\hmzoz\OneDrive\Masaüstü\api</_PublishTargetUrl>
+    <History>True|2024-01-14T07:54:25.0933141Z;True|2024-01-14T10:36:18.2751098+03:00;True|2024-01-13T22:22:38.4841786+03:00;True|2024-01-13T21:09:22.1450082+03:00;True|2024-01-11T21:46:22.7802513+03:00;True|2024-01-11T21:46:02.3815947+03:00;True|2024-01-10T23:34:51.6426225+03:00;True|2023-12-24T14:58:50.4307746+03:00;True|2023-12-24T14:50:53.4899775+03:00;True|2023-12-23T21:13:52.5931925+03:00;True|2023-12-20T23:34:14.2542374+03:00;True|2023-12-20T23:31:35.7049374+03:00;True|2023-12-11T12:29:37.2383534+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

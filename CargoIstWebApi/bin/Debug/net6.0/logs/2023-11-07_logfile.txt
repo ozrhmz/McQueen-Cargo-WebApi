@@ -1,0 +1,264 @@
+2023-11-07 14:49:17.9899 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-11-07T11:49:17.7892907Z"}
+2023-11-07 14:50:02.5746 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-11-07T11:50:02.5744776Z"}
+2023-11-07 14:52:55.4040 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-11-07T11:52:55.280286Z"}
+2023-11-07 15:02:16.0469 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-11-07T12:02:15.851639Z"}
+2023-11-07 15:04:09.7952 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-11-07T12:04:09.7951521Z"}
+2023-11-07 15:35:22.8455 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-11-07T12:35:22.7114122Z"}
+2023-11-07 15:35:37.0900 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Addresses_Neighbourhood_NeighbourhoodId". The conflict occurred in database "CargoIstDb", table "dbo.Neighbourhood", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:bdbd13fb-ab76-4c10-ade7-3d532eca9e0e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Repositories.EFCore.RepositoryManager.SaveAsync() in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Repositories\EFCore\RepositoryManager.cs:line 42
+   at Services.AddressManager.CreateOneAddressAsync(AddressDtoForInsertion addressDto, Int32 customerId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\AddressManager.cs:line 33
+   at Presentation.Controllers.AddressController.CreateOneAddressAsync(AddressDtoForInsertion addressDto, Int32 customerId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 65
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-07 15:35:57.1335 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-11-07T12:35:57.1331307Z"}
+2023-11-07 15:38:04.4279 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-11-07T12:38:04.1864993Z"}
+2023-11-07 15:39:30.7810 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:39:30.6477746Z"}
+2023-11-07 15:39:59.9179 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:39:59.9177892Z"}
+2023-11-07 15:40:41.1567 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:40:41.0100188Z"}
+2023-11-07 15:41:43.8190 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:41:43.818856Z"}
+2023-11-07 15:42:02.5528 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:42:02.5526736Z"}
+2023-11-07 15:42:16.3059 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:42:16.3059267Z"}
+2023-11-07 15:42:58.4313 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:42:58.4312489Z"}
+2023-11-07 15:48:29.1328 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:48:28.9639091Z"}
+2023-11-07 15:51:41.5341 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:51:41.4178909Z"}
+2023-11-07 15:52:15.8011 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T12:52:15.8007977Z"}
+2023-11-07 15:52:42.1869 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-11-07T12:52:42.186807Z"}
+2023-11-07 16:10:57.7946 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetAllBranches","Id":null,"CreateAt":"2023-11-07T13:10:57.6165607Z"}
+2023-11-07 16:11:21.4247 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"CreateOneBranch","Id":null,"CreateAt":"2023-11-07T13:11:21.4247386Z"}
+2023-11-07 16:11:28.4191 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetOneBranch","Id":"4","CreateAt":"2023-11-07T13:11:28.4189414Z"}
+2023-11-07 16:11:40.8155 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"UpdateOneBranch","Id":"4","CreateAt":"2023-11-07T13:11:40.8154668Z"}
+2023-11-07 16:11:44.9328 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetOneBranch","Id":"4","CreateAt":"2023-11-07T13:11:44.9328602Z"}
+2023-11-07 16:11:50.8154 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"DeleteOneBranch","Id":"4","CreateAt":"2023-11-07T13:11:50.8154034Z"}
+2023-11-07 16:11:56.9016 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetOneBranch","Id":"4","CreateAt":"2023-11-07T13:11:56.9015775Z"}
+2023-11-07 16:11:57.1584 ERROR Something went wrong: Entities.Exceptions.BranchNotFoundException: The branch with id:4 could not found.
+   at Services.BranchManager.GetOneBranchAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\BranchManager.cs:line 74
+   at Services.BranchManager.GetOneBranchByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\BranchManager.cs:line 58
+   at Presentation.Controllers.BranchController.GetOneBranchAsync(Int32 id) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\BranchController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-07 16:34:46.8859 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:34:46.7695865Z"}
+2023-11-07 16:42:46.7458 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:42:46.6249801Z"}
+2023-11-07 16:42:55.7675 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:42:55.7673712Z"}
+2023-11-07 16:43:08.0736 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomerAddress_Branch_BranchId". The conflict occurred in database "CargoIstDb", table "dbo.Branch", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b67f6f6a-b0e5-4d03-970b-d9ff1add47d0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Repositories.EFCore.CustomerAddressRepository.CreateOneAdressBranch(Int32 branchId, Int32 adressId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Repositories\EFCore\CustomerAddressRepository.cs:line 38
+   at Services.AddressManager.CreateOneAddressBranchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\AddressManager.cs:line 47
+   at Presentation.Controllers.AddressController.CreateOneAddressBanchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-07 16:43:21.2317 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:43:21.2316105Z"}
+2023-11-07 16:43:22.2719 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomerAddress_Branch_BranchId". The conflict occurred in database "CargoIstDb", table "dbo.Branch", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b67f6f6a-b0e5-4d03-970b-d9ff1add47d0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Repositories.EFCore.CustomerAddressRepository.CreateOneAdressBranch(Int32 branchId, Int32 adressId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Repositories\EFCore\CustomerAddressRepository.cs:line 38
+   at Services.AddressManager.CreateOneAddressBranchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\AddressManager.cs:line 47
+   at Presentation.Controllers.AddressController.CreateOneAddressBanchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-07 16:43:29.2196 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:43:29.2195347Z"}
+2023-11-07 16:43:30.0375 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomerAddress_Branch_BranchId". The conflict occurred in database "CargoIstDb", table "dbo.Branch", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b67f6f6a-b0e5-4d03-970b-d9ff1add47d0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Repositories.EFCore.CustomerAddressRepository.CreateOneAdressBranch(Int32 branchId, Int32 adressId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Repositories\EFCore\CustomerAddressRepository.cs:line 38
+   at Services.AddressManager.CreateOneAddressBranchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\AddressManager.cs:line 47
+   at Presentation.Controllers.AddressController.CreateOneAddressBanchAsync(AddressDtoForInsertion addressDto, Int32 branchId) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-07 16:43:43.3985 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-11-07T13:43:43.3984245Z"}
+2023-11-07 16:44:19.4172 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T13:44:19.4171144Z"}
+2023-11-07 16:45:03.5781 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T13:45:03.5780477Z"}
+2023-11-07 16:45:20.0563 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-11-07T13:45:20.056236Z"}
+2023-11-07 16:55:45.0432 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithBranchId","Id":null,"CreateAt":"2023-11-07T13:55:44.9513571Z"}
+2023-11-07 17:00:54.5033 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithBranchId","Id":null,"CreateAt":"2023-11-07T14:00:54.3954024Z"}
+2023-11-07 18:20:21.4440 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-11-07T15:20:21.3269523Z"}
+2023-11-07 18:20:58.7893 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"CreateOneReceiver","Id":null,"CreateAt":"2023-11-07T15:20:58.7888795Z"}
+2023-11-07 18:21:11.2641 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":"2","CreateAt":"2023-11-07T15:21:11.2635895Z"}
+2023-11-07 18:21:35.9792 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"UpdateOneReceiver","Id":"2","CreateAt":"2023-11-07T15:21:35.9791876Z"}
+2023-11-07 18:21:42.0712 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":"2","CreateAt":"2023-11-07T15:21:42.0711569Z"}
+2023-11-07 18:21:47.4759 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"DeleteOneReceiver","Id":"2","CreateAt":"2023-11-07T15:21:47.4758814Z"}
+2023-11-07 18:21:50.2566 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":"2","CreateAt":"2023-11-07T15:21:50.2565726Z"}
+2023-11-07 18:21:51.3002 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.ReceiverNotFoundException: The receiver with id:2 could not found.
+   at Services.ReceiverManager.GetOneReceiverAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\ReceiverManager.cs:line 74
+   at Services.ReceiverManager.GetOneReceiverByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\ReceiverManager.cs:line 58
+   at Presentation.Controllers.ReceiverController.GetOneReceiverAsync(Int32 id) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\ReceiverController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)

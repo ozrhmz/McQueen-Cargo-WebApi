@@ -1,0 +1,212 @@
+2023-09-24 10:36:14.1242 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T07:36:14.076394Z"}
+2023-09-24 10:43:11.3478 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":"1","CreateAt":"2023-09-24T07:43:11.3257113Z"}
+2023-09-24 10:43:14.8906 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":"4","CreateAt":"2023-09-24T07:43:14.8906058Z"}
+2023-09-24 10:43:15.1711 ERROR Something went wrong: Entities.Exceptions.AddressNotFoundException: The address with id:4 could not found.
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\AddressManager.cs:line 32
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:00:46.0256 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T08:00:46.0020928Z"}
+2023-09-24 11:00:53.8676 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T08:00:53.8676003Z"}
+2023-09-24 11:01:01.4659 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T08:01:01.4659363Z"}
+2023-09-24 11:01:10.2536 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:01:10.2536328Z"}
+2023-09-24 11:12:25.4544 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":"2","CreateAt":"2023-09-24T08:12:25.434582Z"}
+2023-09-24 11:12:28.9994 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":"3","CreateAt":"2023-09-24T08:12:28.99942Z"}
+2023-09-24 11:12:29.2217 ERROR Something went wrong: Entities.Exceptions.AddressNotFoundException: The address with id:3 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\AddressManager.cs:line 62
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\AddressManager.cs:line 46
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:12:43.1285 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetOneCustomers","Id":"3","CreateAt":"2023-09-24T08:12:43.1285303Z"}
+2023-09-24 11:13:13.5438 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"UpdateOneAddress","Id":"2","CreateAt":"2023-09-24T08:13:13.5438446Z"}
+2023-09-24 11:13:21.6208 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"UpdateOneAddress","Id":"2","CreateAt":"2023-09-24T08:13:21.620792Z"}
+2023-09-24 11:13:27.0636 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"UpdateOneAddress","Id":"2","CreateAt":"2023-09-24T08:13:27.0635661Z"}
+2023-09-24 11:13:33.3816 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"UpdateOneAddress","Id":"2","CreateAt":"2023-09-24T08:13:33.3816613Z"}
+2023-09-24 11:13:39.7750 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"UpdateOneAddress","Id":"2","CreateAt":"2023-09-24T08:13:39.7750075Z"}
+2023-09-24 11:13:44.6595 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":"2","CreateAt":"2023-09-24T08:13:44.659527Z"}
+2023-09-24 11:14:02.3511 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"2","CreateAt":"2023-09-24T08:14:02.3511572Z"}
+2023-09-24 11:14:05.4565 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"2","CreateAt":"2023-09-24T08:14:05.4564947Z"}
+2023-09-24 11:14:11.6834 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-24T08:14:11.6834402Z"}
+2023-09-24 11:14:37.4537 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"2","CreateAt":"2023-09-24T08:14:37.4536973Z"}
+2023-09-24 11:15:06.5294 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:15:06.5294255Z"}
+2023-09-24 11:15:22.5749 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:15:22.5748811Z"}
+2023-09-24 11:15:59.9623 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"6","CreateAt":"2023-09-24T08:15:59.9622877Z"}
+2023-09-24 11:16:19.8990 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"100","CreateAt":"2023-09-24T08:16:19.899061Z"}
+2023-09-24 11:16:19.9979 ERROR Something went wrong: Entities.Exceptions.CustomerNotFoundException: The customer with id:100 could not found.
+   at Services.CustomerManager.GetOneCustomerAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 82
+   at Services.CustomerManager.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 72
+   at Presentation.Controllers.CustomerController.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\CustomerController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:16:24.6911 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-24T08:16:24.6911467Z"}
+2023-09-24 11:16:33.3406 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"100","CreateAt":"2023-09-24T08:16:33.3406702Z"}
+2023-09-24 11:16:33.4485 ERROR Something went wrong: Entities.Exceptions.CustomerNotFoundException: The customer with id:100 could not found.
+   at Services.CustomerManager.GetOneCustomerAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 82
+   at Services.CustomerManager.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 72
+   at Presentation.Controllers.CustomerController.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\CustomerController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:16:42.7548 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:16:42.7548456Z"}
+2023-09-24 11:16:42.9308 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithoutPropagationAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Repositories.EFCore.RepositoryManager.SaveAsync() in C:\Users\hmzoz\source\repos\CargoIstWebApi\Repositories\EFCore\RepositoryManager.cs:line 30
+   at Services.CustomerManager.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\CustomerManager.cs:line 75
+   at Presentation.Controllers.CustomerController.UpdateOneCustomerAsync(Int32 id, CustomerDtoForUpdate customerDto) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\CustomerController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:16:47.5282 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:16:47.5282098Z"}
+2023-09-24 11:16:50.6171 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-24T08:16:50.6170603Z"}
+2023-09-24 11:17:38.6871 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:17:38.6871319Z"}
+2023-09-24 11:17:43.6405 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"UpdateOneCustomer","Id":"4","CreateAt":"2023-09-24T08:17:43.640572Z"}
+2023-09-24 11:17:51.1003 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetOneCustomers","Id":"4","CreateAt":"2023-09-24T08:17:51.1003168Z"}
+2023-09-24 11:18:05.3449 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:18:05.34489Z"}
+2023-09-24 11:18:14.7271 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"DeleteOneAddress","Id":"2","CreateAt":"2023-09-24T08:18:14.7271231Z"}
+2023-09-24 11:18:52.9556 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:18:52.9556083Z"}
+2023-09-24 11:18:58.3039 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:18:58.3038995Z"}
+2023-09-24 11:19:10.5297 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"DeleteOneAddress","Id":"4","CreateAt":"2023-09-24T08:19:10.5297349Z"}
+2023-09-24 11:19:12.0134 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"DeleteOneAddress","Id":"3","CreateAt":"2023-09-24T08:19:12.0133773Z"}
+2023-09-24 11:19:16.5989 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"DeleteOneAddress","Id":"3","CreateAt":"2023-09-24T08:19:16.598879Z"}
+2023-09-24 11:19:16.7182 ERROR Something went wrong: Entities.Exceptions.AddressNotFoundException: The address with id:3 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\AddressManager.cs:line 62
+   at Services.AddressManager.DeleteOneAddressAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Services\AddressManager.cs:line 34
+   at Presentation.Controllers.AddressController.DeleteOneAddressAsync(Int32 id) in C:\Users\hmzoz\source\repos\CargoIstWebApi\Presentation\Controllers\AddressController.cs:line 56
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-09-24 11:20:23.7767 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:20:23.7767476Z"}
+2023-09-24 11:20:25.7304 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T08:20:25.7304142Z"}
+2023-09-24 12:56:33.5214 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-09-24T09:56:33.4822021Z"}
+2023-09-24 13:30:19.1365 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:19.1078986Z"}
+2023-09-24 13:30:30.6196 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:30.6196416Z"}
+2023-09-24 13:30:34.3720 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:34.3720244Z"}
+2023-09-24 13:30:37.2471 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:37.2471607Z"}
+2023-09-24 13:30:40.8710 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:40.8709796Z"}
+2023-09-24 13:30:47.3971 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:47.3971288Z"}
+2023-09-24 13:30:54.4220 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:54.4219783Z"}
+2023-09-24 13:30:58.4789 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T10:30:58.4788412Z"}
+2023-09-24 19:05:59.2979 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:05:59.2550685Z"}
+2023-09-24 19:08:25.6090 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:08:25.5994428Z"}
+2023-09-24 19:08:34.3571 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:08:34.3571089Z"}
+2023-09-24 19:10:53.6640 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T16:10:53.6640025Z"}
+2023-09-24 19:11:04.3424 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:11:04.3423927Z"}
+2023-09-24 19:12:13.7418 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T16:12:13.7418043Z"}
+2023-09-24 19:13:32.1527 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"CreateOneCustomer","Id":null,"CreateAt":"2023-09-24T16:13:32.1526975Z"}
+2023-09-24 19:14:35.4752 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-09-24T16:14:35.4751832Z"}
+2023-09-24 19:14:38.9892 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:14:38.9891815Z"}
+2023-09-24 19:14:57.0508 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:14:57.0507846Z"}
+2023-09-24 19:15:05.3928 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:05.3927776Z"}
+2023-09-24 19:15:20.7213 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:20.7213533Z"}
+2023-09-24 19:15:29.2894 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:29.2894073Z"}
+2023-09-24 19:15:37.0501 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:37.0501585Z"}
+2023-09-24 19:15:46.9930 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:46.9930121Z"}
+2023-09-24 19:15:50.9614 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:15:50.9613631Z"}
+2023-09-24 19:16:06.5238 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:16:06.5237867Z"}
+2023-09-24 19:16:28.2773 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:16:28.2773138Z"}
+2023-09-24 19:16:32.0798 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:16:32.0798223Z"}
+2023-09-24 19:16:32.9653 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:16:32.9652948Z"}
+2023-09-24 19:16:33.7172 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:16:33.7172388Z"}
+2023-09-24 19:17:13.3964 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:17:13.396303Z"}
+2023-09-24 19:17:19.7339 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:17:19.7339092Z"}
+2023-09-24 19:17:28.6839 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-09-24T16:17:28.6839152Z"}

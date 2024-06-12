@@ -1,0 +1,30 @@
+2023-12-23 21:18:50.2803 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-12-23T18:18:50.1162654Z"}
+2023-12-23 21:41:02.5644 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:41:02.5063103Z"}
+2023-12-23 21:41:13.7883 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:41:13.7883396Z"}
+2023-12-23 21:41:25.2827 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:41:25.2827236Z"}
+2023-12-23 21:45:44.9879 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:45:44.9879227Z"}
+2023-12-23 21:48:15.7907 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:48:15.7906776Z"}
+2023-12-23 21:48:21.9331 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:48:21.933072Z"}
+2023-12-23 21:49:12.8093 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-23T18:49:12.8092988Z"}
+2023-12-23 21:49:19.3757 ERROR Something went wrong: Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.WebUtilities.FileBufferingReadStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.WebUtilities.StreamHelperExtensions.DrainAsync(Stream stream, ArrayPool`1 bytePool, Nullable`1 limit, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)

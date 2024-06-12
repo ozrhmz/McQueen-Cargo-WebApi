@@ -1,0 +1,727 @@
+2024-01-06 00:48:37.2524 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-05T21:48:37.2113279Z"}
+2024-01-06 00:53:20.5877 WARN ValidateUser : Authentication failed. Wrong username or password
+2024-01-06 00:53:22.5626 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:53:22.5625881Z"}
+2024-01-06 00:53:30.7573 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:53:30.7572861Z"}
+2024-01-06 00:53:37.9222 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:53:37.9222681Z"}
+2024-01-06 00:54:03.5630 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:54:03.5630501Z"}
+2024-01-06 00:54:03.9691 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:54:03.9691333Z"}
+2024-01-06 00:54:06.3190 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:54:06.318997Z"}
+2024-01-06 00:54:06.3639 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-05T21:54:06.3638934Z"}
+2024-01-06 00:54:51.9893 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:54:51.9893051Z"}
+2024-01-06 00:54:51.9893 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-05T21:54:51.9947008Z"}
+2024-01-06 00:54:53.0102 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:54:53.0102643Z"}
+2024-01-06 00:54:53.4746 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:54:53.4746676Z"}
+2024-01-06 00:55:07.0954 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:55:07.0953845Z"}
+2024-01-06 00:55:07.0954 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-05T21:55:07.0994969Z"}
+2024-01-06 00:55:07.8504 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:55:07.8504245Z"}
+2024-01-06 00:55:08.2121 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:55:08.2120877Z"}
+2024-01-06 00:55:14.4036 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:55:14.4036749Z"}
+2024-01-06 00:55:14.4036 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-05T21:55:14.4071801Z"}
+2024-01-06 00:55:15.2435 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:55:15.2435806Z"}
+2024-01-06 00:55:15.6267 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:55:15.6267732Z"}
+2024-01-06 00:55:43.9446 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:55:43.9446366Z"}
+2024-01-06 00:55:44.3568 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:55:44.3568475Z"}
+2024-01-06 00:55:53.2680 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:55:53.2679672Z"}
+2024-01-06 00:55:53.7019 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:55:53.7019592Z"}
+2024-01-06 00:56:46.3542 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:56:46.2961864Z"}
+2024-01-06 00:56:46.9068 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:56:46.9068284Z"}
+2024-01-06 00:56:57.6299 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:56:57.6298873Z"}
+2024-01-06 00:56:58.0720 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:56:58.0720803Z"}
+2024-01-06 00:57:22.8224 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:57:22.8224732Z"}
+2024-01-06 00:57:23.2573 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:57:23.2573052Z"}
+2024-01-06 00:57:36.8257 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:57:36.8256951Z"}
+2024-01-06 00:57:37.2857 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:57:37.2857647Z"}
+2024-01-06 00:57:53.7285 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:57:53.7285227Z"}
+2024-01-06 00:57:54.1699 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:57:54.1699426Z"}
+2024-01-06 00:58:02.7216 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:58:02.7216743Z"}
+2024-01-06 00:58:03.1433 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:58:03.1432947Z"}
+2024-01-06 00:58:08.0845 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:58:08.0845228Z"}
+2024-01-06 00:58:08.5438 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:58:08.5438052Z"}
+2024-01-06 00:58:24.3293 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-05T21:58:24.3293726Z"}
+2024-01-06 00:58:25.1014 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address could not found.
+   at Repositories.EFCore.CargoRepository.CreateOneCargoForCallCourier(Cargo cargo) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Repositories\EFCore\CargoRepository.cs:line 60
+   at Services.CargoManager.CreateOneCargoForCallCourierAsync(CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 52
+   at Presentation.Controllers.CallCourierController.UpdateOneCallCourier(Int32 id, CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-06 00:58:27.9018 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:58:27.9017842Z"}
+2024-01-06 00:58:28.3593 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:58:28.3593168Z"}
+2024-01-06 00:58:52.0926 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-05T21:58:52.0926594Z"}
+2024-01-06 00:58:52.4458 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address could not found.
+   at Repositories.EFCore.CargoRepository.CreateOneCargoForCallCourier(Cargo cargo) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Repositories\EFCore\CargoRepository.cs:line 60
+   at Services.CargoManager.CreateOneCargoForCallCourierAsync(CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 52
+   at Presentation.Controllers.CallCourierController.UpdateOneCallCourier(Int32 id, CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-06 00:58:55.8921 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-05T21:58:55.892155Z"}
+2024-01-06 00:59:07.6105 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-05T21:59:07.6104728Z"}
+2024-01-06 00:59:08.0298 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:59:08.0298204Z"}
+2024-01-06 00:59:08.4910 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:59:08.4910242Z"}
+2024-01-06 00:59:18.9470 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T21:59:18.9470526Z"}
+2024-01-06 00:59:25.4076 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:59:25.4076749Z"}
+2024-01-06 00:59:25.8523 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:59:25.8523074Z"}
+2024-01-06 00:59:45.5799 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:59:45.5799284Z"}
+2024-01-06 00:59:46.0304 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:59:46.0304069Z"}
+2024-01-06 00:59:54.6060 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T21:59:54.6060083Z"}
+2024-01-06 00:59:55.1239 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T21:59:55.1239217Z"}
+2024-01-06 01:00:06.4547 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T22:00:06.4547572Z"}
+2024-01-06 01:00:06.9010 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T22:00:06.9010632Z"}
+2024-01-06 01:00:19.6525 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T22:00:19.6525333Z"}
+2024-01-06 01:00:20.0797 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T22:00:20.0797313Z"}
+2024-01-06 01:00:31.3206 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T22:00:31.3206002Z"}
+2024-01-06 01:00:39.2962 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T22:00:39.2962142Z"}
+2024-01-06 01:00:54.9559 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T22:00:54.9559685Z"}
+2024-01-06 01:00:56.4875 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-05T22:00:56.4875739Z"}
+2024-01-06 01:01:31.0116 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-05T22:01:31.0115799Z"}
+2024-01-06 01:01:31.4678 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-05T22:01:31.4677874Z"}
+2024-01-06 19:27:53.8404 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T16:27:53.7219631Z"}
+2024-01-06 19:27:55.2654 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CallCourierNotFoundException: The call courier with id:0 could not found.
+   at Services.CallCourierManager.GetOneCallCourierAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 185
+   at Services.CallCourierManager.GetOneCallCarierByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 129
+   at Presentation.Controllers.CallCourierController.GetOneCallCourierWithById(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-06 19:28:15.0136 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T16:28:15.0135145Z"}
+2024-01-06 20:08:21.3701 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:08:21.3700732Z"}
+2024-01-06 20:13:02.7341 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-06T17:13:02.7340423Z"}
+2024-01-06 20:13:03.2556 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CallCourierNotFoundException: The call courier with id:0 could not found.
+   at Services.CallCourierManager.GetOneCallCourierAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 185
+   at Services.CallCourierManager.UpdateOneCallCourierAsync(Int32 id, CallCourierDtoForUpdate callCourierDto, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 172
+   at Presentation.Controllers.CallCourierController.UpdateOneCallCourier(Int32 id, CallCourierDtoForUpdate callCourierDto) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-06 20:15:17.9495 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":null,"CreateAt":"2024-01-06T17:15:17.9494472Z"}
+2024-01-06 20:16:41.9404 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-06T17:16:41.9404021Z"}
+2024-01-06 20:19:02.8902 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:19:02.853902Z"}
+2024-01-06 20:20:14.6775 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:20:14.6775183Z"}
+2024-01-06 20:22:54.6143 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:22:54.5920659Z"}
+2024-01-06 20:25:38.4355 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:25:38.4134254Z"}
+2024-01-06 20:27:55.4498 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:27:55.4490641Z"}
+2024-01-06 20:27:56.4374 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:27:56.4374013Z"}
+2024-01-06 20:28:31.4159 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:28:31.3963486Z"}
+2024-01-06 20:28:31.4159 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:28:31.3963104Z"}
+2024-01-06 20:28:53.1854 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:28:53.1853892Z"}
+2024-01-06 20:28:53.1854 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:28:53.1853892Z"}
+2024-01-06 20:28:53.1854 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:28:53.1853891Z"}
+2024-01-06 20:28:53.1854 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:28:53.1853892Z"}
+2024-01-06 20:28:55.6041 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:28:55.6041025Z"}
+2024-01-06 20:28:55.6172 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:28:55.6172317Z"}
+2024-01-06 20:28:58.0309 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:28:58.0309626Z"}
+2024-01-06 20:29:01.4328 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:29:01.4328759Z"}
+2024-01-06 20:29:06.9873 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:29:06.9873667Z"}
+2024-01-06 20:29:06.9873 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:29:06.9874703Z"}
+2024-01-06 20:29:08.9532 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:29:08.9532705Z"}
+2024-01-06 20:29:08.9532 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:29:08.9554752Z"}
+2024-01-06 20:29:28.8411 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:29:28.8402724Z"}
+2024-01-06 20:29:28.8411 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:29:28.8451793Z"}
+2024-01-06 20:29:51.8601 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:29:51.8601047Z"}
+2024-01-06 20:29:51.8601 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:29:51.8698071Z"}
+2024-01-06 20:30:41.7899 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:30:41.7898999Z"}
+2024-01-06 20:30:41.7899 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:30:41.7901441Z"}
+2024-01-06 20:30:53.3870 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:30:53.3869698Z"}
+2024-01-06 20:30:53.3870 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:30:53.3929177Z"}
+2024-01-06 20:31:35.5766 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:31:35.5766672Z"}
+2024-01-06 20:31:35.6177 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:31:35.617714Z"}
+2024-01-06 20:31:44.2760 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:31:44.2760072Z"}
+2024-01-06 20:31:44.2846 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:31:44.2846088Z"}
+2024-01-06 20:43:54.2643 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:43:54.2446424Z"}
+2024-01-06 20:51:46.2803 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:51:46.2802733Z"}
+2024-01-06 20:51:46.3043 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:51:46.3043606Z"}
+2024-01-06 20:51:58.6762 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:51:58.6762338Z"}
+2024-01-06 20:51:58.6762 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:51:58.677443Z"}
+2024-01-06 20:52:16.7388 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:52:16.7388064Z"}
+2024-01-06 20:52:16.7388 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:52:16.7397629Z"}
+2024-01-06 20:53:11.7585 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:53:11.7392218Z"}
+2024-01-06 20:53:11.7585 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:53:11.7392592Z"}
+2024-01-06 20:53:33.3886 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:53:33.3885812Z"}
+2024-01-06 20:53:36.2919 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:53:36.2918966Z"}
+2024-01-06 20:53:36.3156 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:53:36.3156394Z"}
+2024-01-06 20:53:55.2987 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:53:55.2987003Z"}
+2024-01-06 20:53:55.3271 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:53:55.3271658Z"}
+2024-01-06 20:54:20.3457 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:54:20.3457295Z"}
+2024-01-06 20:54:20.7635 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:54:20.7634879Z"}
+2024-01-06 20:54:20.7635 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:54:20.7711609Z"}
+2024-01-06 20:54:33.0481 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:54:33.048094Z"}
+2024-01-06 20:54:33.4895 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:54:33.4895607Z"}
+2024-01-06 20:54:33.5031 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:54:33.5031305Z"}
+2024-01-06 20:55:13.3524 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:55:13.3523944Z"}
+2024-01-06 20:55:13.7860 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:55:13.7860777Z"}
+2024-01-06 20:55:13.7937 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:55:13.7937161Z"}
+2024-01-06 20:56:06.4703 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:56:06.4703046Z"}
+2024-01-06 20:56:06.9192 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:56:06.9192273Z"}
+2024-01-06 20:56:06.9375 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:56:06.9375766Z"}
+2024-01-06 20:56:18.6546 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:56:18.6546632Z"}
+2024-01-06 20:56:19.0966 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:56:19.0966648Z"}
+2024-01-06 20:56:19.1141 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:56:19.1141091Z"}
+2024-01-06 20:56:31.8563 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:56:31.8563227Z"}
+2024-01-06 20:56:32.3207 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:56:32.3207555Z"}
+2024-01-06 20:56:32.3354 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:56:32.3354072Z"}
+2024-01-06 20:56:36.9519 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T17:56:36.9519174Z"}
+2024-01-06 20:56:36.9519 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T17:56:36.9538419Z"}
+2024-01-06 20:56:44.1917 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:56:44.1916969Z"}
+2024-01-06 20:56:56.1575 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:56:56.1575756Z"}
+2024-01-06 20:57:00.8061 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T17:57:00.8061152Z"}
+2024-01-06 20:57:00.8122 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T17:57:00.812137Z"}
+2024-01-06 20:57:05.4694 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T17:57:05.4694009Z"}
+2024-01-06 20:57:05.4694 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T17:57:05.4717616Z"}
+2024-01-06 20:57:08.6786 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T17:57:08.6786243Z"}
+2024-01-06 20:57:08.6786 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T17:57:08.6805684Z"}
+2024-01-06 20:57:13.8874 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T17:57:13.8874109Z"}
+2024-01-06 20:57:16.0852 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T17:57:16.0852804Z"}
+2024-01-06 20:57:19.7405 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2024-01-06T17:57:19.7405472Z"}
+2024-01-06 20:57:21.7662 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T17:57:21.7662139Z"}
+2024-01-06 20:57:21.7981 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T17:57:21.7981788Z"}
+2024-01-06 20:57:24.3059 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T17:57:24.3059227Z"}
+2024-01-06 20:57:24.3105 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T17:57:24.3105747Z"}
+2024-01-06 20:57:27.1899 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T17:57:27.1899732Z"}
+2024-01-06 20:57:27.1899 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T17:57:27.191108Z"}
+2024-01-06 20:57:28.3369 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T17:57:28.3369417Z"}
+2024-01-06 20:57:30.0112 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T17:57:30.011214Z"}
+2024-01-06 20:57:31.3082 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T17:57:31.3081892Z"}
+2024-01-06 20:57:31.3280 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T17:57:31.3280671Z"}
+2024-01-06 20:57:34.3483 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:57:34.3482996Z"}
+2024-01-06 20:57:38.5615 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:57:38.5615537Z"}
+2024-01-06 20:58:19.6495 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T17:58:19.6495656Z"}
+2024-01-06 20:58:19.6633 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T17:58:19.6633709Z"}
+2024-01-06 20:58:28.9824 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T17:58:28.982391Z"}
+2024-01-06 20:58:46.3040 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T17:58:46.3040345Z"}
+2024-01-06 20:58:48.1841 INFO {"ModelName":"OnActionExecuting","Controller":"Province","Action":"GetAllProvinces","Id":null,"CreateAt":"2024-01-06T17:58:48.1841527Z"}
+2024-01-06 20:58:48.2084 INFO {"ModelName":"OnActionExecuting","Controller":"District","Action":"GetAllDistrict","Id":null,"CreateAt":"2024-01-06T17:58:48.2084586Z"}
+2024-01-06 20:59:02.1048 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2024-01-06T17:59:02.1048455Z"}
+2024-01-06 20:59:30.2861 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2024-01-06T17:59:30.2861486Z"}
+2024-01-06 20:59:32.6156 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T17:59:32.6156324Z"}
+2024-01-06 20:59:36.2295 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T17:59:36.2295527Z"}
+2024-01-06 20:59:37.4861 INFO {"ModelName":"OnActionExecuting","Controller":"Province","Action":"GetAllProvinces","Id":null,"CreateAt":"2024-01-06T17:59:37.4861751Z"}
+2024-01-06 20:59:37.4861 INFO {"ModelName":"OnActionExecuting","Controller":"District","Action":"GetAllDistrict","Id":null,"CreateAt":"2024-01-06T17:59:37.4915891Z"}
+2024-01-06 20:59:53.4548 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2024-01-06T17:59:53.4548604Z"}
+2024-01-06 20:59:56.4661 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2024-01-06T17:59:56.4660844Z"}
+2024-01-06 21:00:48.0070 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"CreateOneReceiver","Id":null,"CreateAt":"2024-01-06T18:00:48.0070719Z"}
+2024-01-06 21:00:48.3397 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:00:48.3397605Z"}
+2024-01-06 21:00:53.8602 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2024-01-06T18:00:53.8602121Z"}
+2024-01-06 21:00:57.7520 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:00:57.75205Z"}
+2024-01-06 21:00:57.7520 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:00:57.7523034Z"}
+2024-01-06 21:00:59.4738 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:00:59.4738511Z"}
+2024-01-06 21:00:59.4738 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:00:59.4756773Z"}
+2024-01-06 21:01:02.1088 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:01:02.1088008Z"}
+2024-01-06 21:01:02.1088 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:01:02.1105224Z"}
+2024-01-06 21:01:03.6361 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T18:01:03.6360942Z"}
+2024-01-06 21:03:05.3959 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:03:05.395318Z"}
+2024-01-06 21:03:05.3959 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:03:05.3963446Z"}
+2024-01-06 21:03:08.4557 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:03:08.4557133Z"}
+2024-01-06 21:03:35.8549 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:03:35.8549125Z"}
+2024-01-06 21:03:36.9019 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:03:36.9019393Z"}
+2024-01-06 21:03:37.2718 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:03:37.271809Z"}
+2024-01-06 21:03:37.2814 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:03:37.2812637Z"}
+2024-01-06 21:03:42.4995 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:03:42.499538Z"}
+2024-01-06 21:03:43.1218 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:03:43.1218163Z"}
+2024-01-06 21:03:43.5925 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:03:43.5925702Z"}
+2024-01-06 21:03:43.5925 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:03:43.5942035Z"}
+2024-01-06 21:04:09.7269 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:04:09.7268976Z"}
+2024-01-06 21:04:10.3091 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:04:10.3090775Z"}
+2024-01-06 21:04:10.7884 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:04:10.7884581Z"}
+2024-01-06 21:04:10.8259 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:04:10.8258737Z"}
+2024-01-06 21:04:40.4841 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:04:40.4841131Z"}
+2024-01-06 21:04:41.0577 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:04:41.0577663Z"}
+2024-01-06 21:04:41.4449 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:04:41.4449077Z"}
+2024-01-06 21:04:41.4449 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:04:41.4452015Z"}
+2024-01-06 21:04:48.7134 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:04:48.7134721Z"}
+2024-01-06 21:04:50.7603 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:04:50.7603615Z"}
+2024-01-06 21:04:50.7625 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:04:50.7625797Z"}
+2024-01-06 21:04:51.6444 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:04:51.6444399Z"}
+2024-01-06 21:04:52.0277 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:04:52.027733Z"}
+2024-01-06 21:04:52.0277 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:04:52.0279087Z"}
+2024-01-06 21:05:15.9335 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:05:15.9334947Z"}
+2024-01-06 21:05:16.5229 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:05:16.5229265Z"}
+2024-01-06 21:05:17.0162 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:05:17.0162649Z"}
+2024-01-06 21:05:17.0162 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:05:17.0245645Z"}
+2024-01-06 21:05:22.6207 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:05:22.6206926Z"}
+2024-01-06 21:05:23.1732 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:05:23.1732469Z"}
+2024-01-06 21:05:23.6083 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:05:23.6083791Z"}
+2024-01-06 21:05:23.6083 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:05:23.6155122Z"}
+2024-01-06 21:05:47.4953 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:05:47.4952981Z"}
+2024-01-06 21:05:48.0230 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:05:48.0230132Z"}
+2024-01-06 21:05:48.4569 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:05:48.4568856Z"}
+2024-01-06 21:05:48.4569 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:05:48.4585358Z"}
+2024-01-06 21:06:02.3664 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:06:02.366379Z"}
+2024-01-06 21:06:03.0814 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:06:03.0814212Z"}
+2024-01-06 21:06:03.4457 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:06:03.4457559Z"}
+2024-01-06 21:06:03.4457 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:06:03.4459768Z"}
+2024-01-06 21:06:23.5040 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:06:23.5040345Z"}
+2024-01-06 21:06:24.8608 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:06:24.8608578Z"}
+2024-01-06 21:06:25.2557 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:06:25.255098Z"}
+2024-01-06 21:06:25.2557 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:06:25.2585536Z"}
+2024-01-06 21:07:02.6132 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:07:02.6132316Z"}
+2024-01-06 21:07:03.1306 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:07:03.1306173Z"}
+2024-01-06 21:07:03.6222 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:07:03.6221803Z"}
+2024-01-06 21:07:03.6222 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:07:03.6240936Z"}
+2024-01-06 21:07:05.1631 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:07:05.1631811Z"}
+2024-01-06 21:07:07.7411 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:07:07.7410725Z"}
+2024-01-06 21:07:11.7690 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:07:11.7690492Z"}
+2024-01-06 21:07:14.8057 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:07:14.8057568Z"}
+2024-01-06 21:08:11.2675 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:08:11.2675589Z"}
+2024-01-06 21:08:11.9872 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:08:11.9871936Z"}
+2024-01-06 21:08:12.4387 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:08:12.4386848Z"}
+2024-01-06 21:08:12.4387 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:08:12.4389605Z"}
+2024-01-06 21:08:17.5969 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:08:17.596946Z"}
+2024-01-06 21:08:18.1492 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:08:18.1492683Z"}
+2024-01-06 21:08:18.6042 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:08:18.6042513Z"}
+2024-01-06 21:08:18.6130 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:08:18.6130202Z"}
+2024-01-06 21:08:26.6150 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:08:26.615011Z"}
+2024-01-06 21:08:28.5708 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:08:28.5708017Z"}
+2024-01-06 21:08:28.9263 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:08:28.9263197Z"}
+2024-01-06 21:08:28.9263 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:08:28.92655Z"}
+2024-01-06 21:08:40.6219 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:08:40.6219463Z"}
+2024-01-06 21:08:41.1940 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:08:41.1940274Z"}
+2024-01-06 21:08:41.5945 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:08:41.5945032Z"}
+2024-01-06 21:08:41.5945 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:08:41.6035847Z"}
+2024-01-06 21:08:53.7926 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:08:53.7926352Z"}
+2024-01-06 21:08:54.3118 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:08:54.3117948Z"}
+2024-01-06 21:08:55.0547 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:08:55.0547058Z"}
+2024-01-06 21:08:55.0547 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:08:55.0557557Z"}
+2024-01-06 21:09:01.4940 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:09:01.4940372Z"}
+2024-01-06 21:09:02.1680 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:09:02.1679837Z"}
+2024-01-06 21:09:02.5261 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:09:02.5260809Z"}
+2024-01-06 21:09:02.5291 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:09:02.5291576Z"}
+2024-01-06 21:09:33.6821 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:09:33.6820166Z"}
+2024-01-06 21:09:34.1741 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:09:34.1740949Z"}
+2024-01-06 21:09:34.6266 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:09:34.6266383Z"}
+2024-01-06 21:09:34.6266 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:09:34.6270301Z"}
+2024-01-06 21:09:57.0447 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:09:57.0447146Z"}
+2024-01-06 21:09:57.6800 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:09:57.6800178Z"}
+2024-01-06 21:09:58.0602 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:09:58.060182Z"}
+2024-01-06 21:09:58.0602 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:09:58.0604527Z"}
+2024-01-06 21:09:59.8178 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T18:09:59.8178685Z"}
+2024-01-06 21:09:59.8178 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T18:09:59.8181173Z"}
+2024-01-06 21:10:04.0389 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T18:10:04.0389056Z"}
+2024-01-06 21:10:04.0389 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T18:10:04.0390927Z"}
+2024-01-06 21:10:09.6947 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:10:09.6947378Z"}
+2024-01-06 21:10:12.1314 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:10:12.1314012Z"}
+2024-01-06 21:10:13.9031 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:10:13.903125Z"}
+2024-01-06 21:10:16.7075 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:10:16.7074829Z"}
+2024-01-06 21:10:19.2515 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2024-01-06T18:10:19.2515693Z"}
+2024-01-06 21:10:25.8017 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:10:25.8017383Z"}
+2024-01-06 21:10:25.8088 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:10:25.808851Z"}
+2024-01-06 21:10:28.9028 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:10:28.9028069Z"}
+2024-01-06 21:10:28.9028 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:10:28.903792Z"}
+2024-01-06 21:10:31.2067 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:10:31.2067158Z"}
+2024-01-06 21:10:31.2067 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:10:31.2070013Z"}
+2024-01-06 21:10:32.3770 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T18:10:32.3770484Z"}
+2024-01-06 21:12:07.1462 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:12:07.146254Z"}
+2024-01-06 21:12:17.0980 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:12:17.098016Z"}
+2024-01-06 21:12:17.1072 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:12:17.107255Z"}
+2024-01-06 21:12:20.6131 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:12:20.6131444Z"}
+2024-01-06 21:12:23.2029 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:12:23.202962Z"}
+2024-01-06 21:12:26.4526 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2024-01-06T18:12:26.4526193Z"}
+2024-01-06 21:12:53.8690 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:12:53.8689797Z"}
+2024-01-06 21:12:53.8720 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:12:53.8719799Z"}
+2024-01-06 21:12:56.1856 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:12:56.1856153Z"}
+2024-01-06 21:12:56.1856 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:12:56.1857209Z"}
+2024-01-06 21:12:59.6510 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:12:59.6510741Z"}
+2024-01-06 21:12:59.6519 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:12:59.651942Z"}
+2024-01-06 21:13:02.5507 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T18:13:02.5507521Z"}
+2024-01-06 21:13:03.7324 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:13:03.7324294Z"}
+2024-01-06 21:13:08.8722 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:13:08.872203Z"}
+2024-01-06 21:13:08.8722 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:13:08.87454Z"}
+2024-01-06 21:13:11.4172 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:13:11.417174Z"}
+2024-01-06 21:13:14.0988 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:13:14.0987951Z"}
+2024-01-06 21:13:17.4464 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:13:17.4464633Z"}
+2024-01-06 21:13:17.4484 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:13:17.4484527Z"}
+2024-01-06 21:13:20.1943 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:13:20.1943509Z"}
+2024-01-06 21:13:20.1943 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:13:20.1947693Z"}
+2024-01-06 21:13:22.2513 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:13:22.251351Z"}
+2024-01-06 21:13:22.2786 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:13:22.2786367Z"}
+2024-01-06 21:13:23.2583 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T18:13:23.2583691Z"}
+2024-01-06 21:13:25.2714 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:13:25.2714799Z"}
+2024-01-06 21:14:00.1004 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:14:00.1003854Z"}
+2024-01-06 21:14:02.7668 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:14:02.766868Z"}
+2024-01-06 21:14:02.7815 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:14:02.781552Z"}
+2024-01-06 21:14:09.6499 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:14:09.6498993Z"}
+2024-01-06 21:14:30.7721 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:14:30.7721718Z"}
+2024-01-06 21:14:32.7051 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:14:32.7051322Z"}
+2024-01-06 21:14:37.3439 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2024-01-06T18:14:37.3438802Z"}
+2024-01-06 21:14:44.2656 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:14:44.2656283Z"}
+2024-01-06 21:14:44.2656 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:14:44.2658761Z"}
+2024-01-06 21:14:46.2278 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:14:46.2278412Z"}
+2024-01-06 21:14:46.2278 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:14:46.2282781Z"}
+2024-01-06 21:14:50.4483 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:14:50.4483358Z"}
+2024-01-06 21:14:50.4506 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:14:50.4506734Z"}
+2024-01-06 21:14:52.9722 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2024-01-06T18:14:52.9721915Z"}
+2024-01-06 21:14:54.3001 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:14:54.3001231Z"}
+2024-01-06 21:15:00.6546 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:15:00.6546458Z"}
+2024-01-06 21:15:02.8511 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:15:02.8511171Z"}
+2024-01-06 21:15:02.8621 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:15:02.8620825Z"}
+2024-01-06 21:15:37.9329 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:15:37.9328871Z"}
+2024-01-06 21:15:42.0943 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:15:42.0943249Z"}
+2024-01-06 21:15:42.1154 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:15:42.1154765Z"}
+2024-01-06 21:15:59.8313 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:15:59.8313523Z"}
+2024-01-06 21:16:00.4677 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:00.4676829Z"}
+2024-01-06 21:16:00.4878 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:00.4878131Z"}
+2024-01-06 21:16:03.8080 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:03.8080043Z"}
+2024-01-06 21:16:03.8082 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:03.8081847Z"}
+2024-01-06 21:16:05.8335 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:05.8328302Z"}
+2024-01-06 21:16:05.8335 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:05.8363016Z"}
+2024-01-06 21:16:12.4186 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:16:12.4186098Z"}
+2024-01-06 21:16:12.8402 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:12.8401925Z"}
+2024-01-06 21:16:12.8684 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:12.8684253Z"}
+2024-01-06 21:16:16.0890 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:16.0890721Z"}
+2024-01-06 21:16:16.0916 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:16.0916003Z"}
+2024-01-06 21:16:27.3683 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:16:27.3682914Z"}
+2024-01-06 21:16:28.1990 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:28.1717758Z"}
+2024-01-06 21:16:28.2114 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:28.2113426Z"}
+2024-01-06 21:16:30.4650 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:30.4650201Z"}
+2024-01-06 21:16:30.4650 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:30.4663471Z"}
+2024-01-06 21:16:39.2480 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:16:39.2480593Z"}
+2024-01-06 21:16:40.4977 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:40.4977239Z"}
+2024-01-06 21:16:40.4977 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:40.5102466Z"}
+2024-01-06 21:16:56.1567 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:16:56.1567114Z"}
+2024-01-06 21:16:58.9761 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:16:58.9761716Z"}
+2024-01-06 21:16:58.9990 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:16:58.9990099Z"}
+2024-01-06 21:17:06.3541 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:17:06.3541551Z"}
+2024-01-06 21:17:06.7694 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:17:06.7694101Z"}
+2024-01-06 21:17:06.7833 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:06.7833106Z"}
+2024-01-06 21:17:29.9629 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:17:29.9629087Z"}
+2024-01-06 21:17:30.3998 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:17:30.3998055Z"}
+2024-01-06 21:17:30.4154 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:30.4153832Z"}
+2024-01-06 21:17:32.5950 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:32.5950721Z"}
+2024-01-06 21:17:32.5950 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:17:32.5951999Z"}
+2024-01-06 21:17:35.0757 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:17:35.0757669Z"}
+2024-01-06 21:17:35.0757 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:35.0760477Z"}
+2024-01-06 21:17:41.0527 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:17:41.0527653Z"}
+2024-01-06 21:17:41.0527 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:41.0532358Z"}
+2024-01-06 21:17:50.1596 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:17:50.1595939Z"}
+2024-01-06 21:17:50.5750 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:50.575072Z"}
+2024-01-06 21:17:53.8752 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:17:53.8752329Z"}
+2024-01-06 21:18:02.2007 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:18:02.2000035Z"}
+2024-01-06 21:18:04.6400 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:18:04.6400477Z"}
+2024-01-06 21:18:19.2261 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:18:19.2261606Z"}
+2024-01-06 21:18:19.6851 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:18:19.6850871Z"}
+2024-01-06 21:18:45.4263 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:18:45.4263249Z"}
+2024-01-06 21:18:45.9071 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:18:45.9071665Z"}
+2024-01-06 21:19:12.5614 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:19:12.5614341Z"}
+2024-01-06 21:19:13.0151 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:19:13.0151727Z"}
+2024-01-06 21:20:00.0290 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:20:00.0289853Z"}
+2024-01-06 21:20:00.5015 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:20:00.5015574Z"}
+2024-01-06 21:20:00.5237 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:20:00.5237261Z"}
+2024-01-06 21:20:06.1754 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:20:06.1754591Z"}
+2024-01-06 21:20:06.5971 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:20:06.5971804Z"}
+2024-01-06 21:20:06.6226 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:20:06.6226305Z"}
+2024-01-06 21:20:17.6325 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:20:17.6325524Z"}
+2024-01-06 21:20:18.1054 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:20:18.1054242Z"}
+2024-01-06 21:20:18.1352 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:20:18.1352098Z"}
+2024-01-06 21:20:31.5571 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:20:31.5570872Z"}
+2024-01-06 21:20:31.9943 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:20:31.9943323Z"}
+2024-01-06 21:20:32.0060 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:20:32.0060157Z"}
+2024-01-06 21:20:54.8160 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:20:54.8160623Z"}
+2024-01-06 21:20:55.7506 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:20:55.7506682Z"}
+2024-01-06 21:20:55.9111 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:20:55.9111018Z"}
+2024-01-06 21:21:19.5433 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:21:19.5433638Z"}
+2024-01-06 21:21:20.0146 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:21:20.0146524Z"}
+2024-01-06 21:21:20.0322 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:21:20.0322123Z"}
+2024-01-06 21:22:25.7434 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:22:25.743363Z"}
+2024-01-06 21:22:47.0126 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:22:47.0125707Z"}
+2024-01-06 21:23:01.4830 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:23:01.48301Z"}
+2024-01-06 21:23:14.8438 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:23:14.8438108Z"}
+2024-01-06 21:23:14.8438 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:23:14.843931Z"}
+2024-01-06 21:24:08.2945 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:24:08.2945645Z"}
+2024-01-06 21:24:08.7173 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:24:08.7172768Z"}
+2024-01-06 21:24:08.7322 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:24:08.7321941Z"}
+2024-01-06 21:24:42.4671 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:24:42.467118Z"}
+2024-01-06 21:24:49.0591 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:24:49.0591363Z"}
+2024-01-06 21:24:49.0591 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:24:49.0710479Z"}
+2024-01-06 21:25:16.9696 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:25:16.969621Z"}
+2024-01-06 21:25:16.9696 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:25:16.9748298Z"}
+2024-01-06 21:25:32.3119 ERROR Something went wrong: Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=5517; handshake=9489; 
+ ---> System.ComponentModel.Win32Exception (258): Bekleme işlem zamanı aşıldı.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Repositories.EFCore.CallCourierRepository.GetAllCallCarierByTCNoAsync(String TCNo, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Repositories\EFCore\CallCourierRepository.cs:line 61
+   at Services.CallCourierManager.GetAllCallCarierByTCNoAsync(String TCNo, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 40
+   at Presentation.Controllers.CallCourierController.GetAllCourierWithByTcnoAsync(String tcNo) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ClientConnectionId:3dc61046-6961-417f-8f17-864665fe1d4b
+Error Number:-2,State:0,Class:11
+2024-01-06 21:25:54.1710 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:25:54.169979Z"}
+2024-01-06 21:25:54.1710 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:25:54.1730372Z"}
+2024-01-06 21:26:06.4345 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:26:06.4345329Z"}
+2024-01-06 21:26:06.9081 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:26:06.9081564Z"}
+2024-01-06 21:26:06.9436 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:26:06.9436597Z"}
+2024-01-06 21:26:15.7207 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:26:15.7207459Z"}
+2024-01-06 21:26:16.1687 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:26:16.1686907Z"}
+2024-01-06 21:26:16.1687 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:26:16.1822827Z"}
+2024-01-06 21:26:43.3404 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:26:43.3404573Z"}
+2024-01-06 21:26:43.7776 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:26:43.7776559Z"}
+2024-01-06 21:26:43.7776 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:26:43.7893975Z"}
+2024-01-06 21:26:58.4771 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:26:58.4771509Z"}
+2024-01-06 21:26:58.9032 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:26:58.9032109Z"}
+2024-01-06 21:26:58.9216 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:26:58.9215885Z"}
+2024-01-06 21:28:05.6108 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:28:05.6108678Z"}
+2024-01-06 21:28:06.0408 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:28:06.0408069Z"}
+2024-01-06 21:28:06.0540 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:28:06.0539346Z"}
+2024-01-06 21:28:32.3133 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:28:32.3133711Z"}
+2024-01-06 21:28:32.7499 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:28:32.7499521Z"}
+2024-01-06 21:28:32.9696 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:28:32.9696503Z"}
+2024-01-06 21:29:48.3577 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:29:48.3576921Z"}
+2024-01-06 21:29:48.7923 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:29:48.7923097Z"}
+2024-01-06 21:29:48.8058 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:29:48.8058406Z"}
+2024-01-06 21:30:01.6601 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:30:01.660083Z"}
+2024-01-06 21:30:02.0750 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:30:02.075064Z"}
+2024-01-06 21:30:02.0750 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:30:02.0874197Z"}
+2024-01-06 21:30:11.9056 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:30:11.9056138Z"}
+2024-01-06 21:30:12.3648 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:30:12.364859Z"}
+2024-01-06 21:30:12.3826 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:30:12.3826326Z"}
+2024-01-06 21:30:22.9552 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:30:22.9552261Z"}
+2024-01-06 21:30:23.3773 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:30:23.3773358Z"}
+2024-01-06 21:30:23.3964 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:30:23.3964714Z"}
+2024-01-06 21:30:28.4349 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:30:28.4348964Z"}
+2024-01-06 21:30:28.8891 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:30:28.88911Z"}
+2024-01-06 21:30:28.9138 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:30:28.9138682Z"}
+2024-01-06 21:30:56.9149 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:30:56.9148834Z"}
+2024-01-06 21:30:57.3465 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:30:57.3465577Z"}
+2024-01-06 21:30:57.3633 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:30:57.3632888Z"}
+2024-01-06 21:31:30.9219 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:31:30.9218822Z"}
+2024-01-06 21:31:30.9219 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:31:30.9299892Z"}
+2024-01-06 21:31:38.5792 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T18:31:38.5792598Z"}
+2024-01-06 21:31:38.5792 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T18:31:38.5858655Z"}
+2024-01-06 21:32:58.7574 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:32:58.7574293Z"}
+2024-01-06 21:32:58.7574 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:32:58.7593564Z"}
+2024-01-06 21:33:01.3684 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:33:01.3684455Z"}
+2024-01-06 21:33:01.3716 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:33:01.3716697Z"}
+2024-01-06 21:33:03.9534 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:33:03.9534268Z"}
+2024-01-06 21:33:09.0001 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:33:09.0001346Z"}
+2024-01-06 21:33:13.6819 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-06T18:33:13.6818824Z"}
+2024-01-06 21:33:13.6819 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-06T18:33:13.6824281Z"}
+2024-01-06 21:34:07.7933 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:34:07.7933274Z"}
+2024-01-06 21:34:10.5991 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:34:10.5991295Z"}
+2024-01-06 21:34:10.6224 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:34:10.6223357Z"}
+2024-01-06 21:34:18.1770 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:34:18.1770049Z"}
+2024-01-06 21:34:18.1962 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:34:18.1962565Z"}
+2024-01-06 21:34:20.0119 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:34:20.0119046Z"}
+2024-01-06 21:34:22.9496 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:34:22.9496735Z"}
+2024-01-06 21:34:25.4311 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:34:25.4311402Z"}
+2024-01-06 21:34:28.0279 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:34:28.0279116Z"}
+2024-01-06 21:34:30.1677 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:34:30.1677588Z"}
+2024-01-06 21:34:59.8672 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:34:59.867182Z"}
+2024-01-06 21:34:59.8833 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:34:59.8832901Z"}
+2024-01-06 21:35:06.7680 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:35:06.7680741Z"}
+2024-01-06 21:35:08.9991 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:35:08.999085Z"}
+2024-01-06 21:37:37.7165 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:37:37.7165088Z"}
+2024-01-06 21:37:42.0678 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:37:42.0678586Z"}
+2024-01-06 21:37:43.1380 INFO {"ModelName":"OnActionExecuting","Controller":"Province","Action":"GetAllProvinces","Id":null,"CreateAt":"2024-01-06T18:37:43.1380715Z"}
+2024-01-06 21:37:43.1582 INFO {"ModelName":"OnActionExecuting","Controller":"District","Action":"GetAllDistrict","Id":null,"CreateAt":"2024-01-06T18:37:43.1582261Z"}
+2024-01-06 21:37:44.8628 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:37:44.8628237Z"}
+2024-01-06 21:37:49.7921 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:37:49.7921285Z"}
+2024-01-06 21:39:19.5276 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:39:19.5276659Z"}
+2024-01-06 21:39:19.5443 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:39:19.544345Z"}
+2024-01-06 21:39:20.3685 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:39:20.3685575Z"}
+2024-01-06 21:39:33.2612 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:39:33.2612427Z"}
+2024-01-06 21:39:34.4404 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:39:34.4403965Z"}
+2024-01-06 21:39:36.4194 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:39:36.4194723Z"}
+2024-01-06 21:39:40.9568 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:39:40.9568481Z"}
+2024-01-06 21:39:42.0616 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:39:42.0615842Z"}
+2024-01-06 21:39:50.8852 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:39:50.8852744Z"}
+2024-01-06 21:39:51.8733 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:39:51.8732962Z"}
+2024-01-06 21:41:03.7181 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:41:03.7180978Z"}
+2024-01-06 21:41:03.7478 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:41:03.7478814Z"}
+2024-01-06 21:41:04.4751 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:41:04.4751695Z"}
+2024-01-06 21:42:46.6701 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:42:46.6701555Z"}
+2024-01-06 21:42:46.6856 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:42:46.6856152Z"}
+2024-01-06 21:42:47.5402 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:42:47.5401881Z"}
+2024-01-06 21:43:06.3987 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:43:06.3986828Z"}
+2024-01-06 21:43:06.4034 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:43:06.4034293Z"}
+2024-01-06 21:43:07.1693 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:43:07.1693754Z"}
+2024-01-06 21:43:09.6770 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:43:09.6770273Z"}
+2024-01-06 21:43:43.8209 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:43:43.8209022Z"}
+2024-01-06 21:43:43.8280 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:43:43.8280645Z"}
+2024-01-06 21:43:45.0140 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:43:45.0140551Z"}
+2024-01-06 21:43:52.6812 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:43:52.681185Z"}
+2024-01-06 21:44:20.6560 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:44:20.6560634Z"}
+2024-01-06 21:44:20.6560 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:44:20.6598202Z"}
+2024-01-06 21:44:21.5162 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:44:21.5162513Z"}
+2024-01-06 21:44:28.7450 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:44:28.7450294Z"}
+2024-01-06 21:44:28.7550 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:44:28.7550104Z"}
+2024-01-06 21:44:29.5883 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:44:29.5883283Z"}
+2024-01-06 21:44:37.2403 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:44:37.2402771Z"}
+2024-01-06 21:44:37.2542 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:44:37.2535048Z"}
+2024-01-06 21:44:38.3568 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:44:38.3568144Z"}
+2024-01-06 21:44:55.3565 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:44:55.3565264Z"}
+2024-01-06 21:44:56.6016 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:44:56.6016202Z"}
+2024-01-06 21:45:00.2459 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"DeleteOneAddress","Id":null,"CreateAt":"2024-01-06T18:45:00.2459312Z"}
+2024-01-06 21:45:01.0040 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:45:01.0040129Z"}
+2024-01-06 21:45:07.8620 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:45:07.8620712Z"}
+2024-01-06 21:45:40.2298 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:45:40.229847Z"}
+2024-01-06 21:45:40.8884 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:45:40.8884709Z"}
+2024-01-06 21:45:41.7746 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:45:41.7746602Z"}
+2024-01-06 21:51:29.2260 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:51:29.2260384Z"}
+2024-01-06 21:51:30.7770 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:51:30.7770438Z"}
+2024-01-06 21:51:37.9580 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:51:37.958059Z"}
+2024-01-06 21:51:38.5648 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:51:38.5648539Z"}
+2024-01-06 21:51:41.1322 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:51:41.1322544Z"}
+2024-01-06 21:51:42.1060 INFO {"ModelName":"OnActionExecuting","Controller":"Province","Action":"GetAllProvinces","Id":null,"CreateAt":"2024-01-06T18:51:42.106066Z"}
+2024-01-06 21:51:42.1390 INFO {"ModelName":"OnActionExecuting","Controller":"District","Action":"GetAllDistrict","Id":null,"CreateAt":"2024-01-06T18:51:42.1390503Z"}
+2024-01-06 21:51:44.0879 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:51:44.0879019Z"}
+2024-01-06 21:51:46.5349 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:51:46.5349169Z"}
+2024-01-06 21:54:03.9324 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:54:03.9315011Z"}
+2024-01-06 21:54:04.6278 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:54:04.6278015Z"}
+2024-01-06 21:54:09.5000 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:54:09.5000237Z"}
+2024-01-06 21:54:30.6514 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:54:30.6514319Z"}
+2024-01-06 21:54:31.2361 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:54:31.2361585Z"}
+2024-01-06 21:54:36.1030 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:54:36.1030006Z"}
+2024-01-06 21:54:39.5760 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:54:39.5760488Z"}
+2024-01-06 21:54:40.6779 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2024-01-06T18:54:40.6779438Z"}
+2024-01-06 21:54:43.3602 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:54:43.3602332Z"}
+2024-01-06 21:54:45.8419 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:54:45.8419551Z"}
+2024-01-06 21:54:59.5748 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:54:59.5747964Z"}
+2024-01-06 21:55:03.7379 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:55:03.7379712Z"}
+2024-01-06 21:55:04.5632 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:55:04.5632152Z"}
+2024-01-06 21:55:06.6644 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T18:55:06.6644253Z"}
+2024-01-06 21:55:07.5442 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"DeleteOneReceiver","Id":null,"CreateAt":"2024-01-06T18:55:07.544218Z"}
+2024-01-06 21:55:09.3021 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T18:55:09.3021726Z"}
+2024-01-06 21:55:39.6780 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:55:39.6780102Z"}
+2024-01-06 21:55:39.7009 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:55:39.7009235Z"}
+2024-01-06 21:56:01.4837 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:56:01.4837396Z"}
+2024-01-06 21:56:01.9347 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:56:01.9347567Z"}
+2024-01-06 21:56:01.9347 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:56:01.946693Z"}
+2024-01-06 21:56:33.6152 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:56:33.6152391Z"}
+2024-01-06 21:56:34.0669 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:56:34.0669133Z"}
+2024-01-06 21:56:34.0813 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:56:34.0812832Z"}
+2024-01-06 21:57:40.3395 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T18:57:40.3394861Z"}
+2024-01-06 21:58:12.2780 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T18:58:12.2779883Z"}
+2024-01-06 21:58:12.2780 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T18:58:12.2805903Z"}
+2024-01-06 21:59:41.2984 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2024-01-06T18:59:41.2984617Z"}
+2024-01-06 21:59:41.5356 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CallCourierNotFoundException: The call courier with id:0 could not found.
+   at Services.CallCourierManager.GetOneCallCourierAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 185
+   at Services.CallCourierManager.GetOneCallCarierByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CallCourierManager.cs:line 129
+   at Presentation.Controllers.CallCourierController.GetOneCallCourierWithById(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CallCourierController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-06 22:00:01.7037 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-06T19:00:01.7037561Z"}
+2024-01-06 22:00:27.5004 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T19:00:27.5004646Z"}
+2024-01-06 22:03:59.9059 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T19:03:59.9053928Z"}
+2024-01-06 22:08:40.3506 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-06T19:08:40.3307669Z"}
+2024-01-06 22:08:55.1926 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T19:08:55.1925954Z"}
+2024-01-06 22:08:56.5062 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2024-01-06T19:08:56.5062607Z"}
+2024-01-06 22:08:57.6706 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"DeleteOneReceiver","Id":null,"CreateAt":"2024-01-06T19:08:57.6705869Z"}
+2024-01-06 22:08:58.3042 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2024-01-06T19:08:58.3042553Z"}
+2024-01-06 22:09:06.1158 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-06T19:09:06.1158262Z"}
+2024-01-06 22:09:06.1414 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-06T19:09:06.1414Z"}

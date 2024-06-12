@@ -1,0 +1,29 @@
+2023-12-25 00:00:14.5613 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"ForgotPasswordCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:00:14.5207588Z"}
+2023-12-25 00:00:21.3207 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CustomerNotFoundException: The customer could not found.
+   at Services.CustomerMobilManager.ForgotPasswordCustomerMobil(String Email) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CustomerMobilManager.cs:line 172
+   at Presentation.Controllers.CustomerMobilController.ForgotPasswordCustomerMobil(String Email) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CustomerMobilController.cs:line 147
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-25 00:00:28.2670 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:00:28.266997Z"}
+2023-12-25 00:00:50.2831 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"ForgotPasswordCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:00:50.2830441Z"}
+2023-12-25 00:19:33.7378 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:19:33.7181617Z"}
+2023-12-25 00:20:19.5447 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:20:19.544672Z"}
+2023-12-25 00:20:47.5875 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"ForgotPasswordCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:20:47.5875515Z"}
+2023-12-25 00:21:08.1836 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"ForgotPasswordCustomerMobil","Id":null,"CreateAt":"2023-12-24T21:21:08.1836016Z"}
+2023-12-25 00:21:37.6570 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-24T21:21:37.657012Z"}
+2023-12-25 00:21:45.5413 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-24T21:21:45.541379Z"}
+2023-12-25 00:25:10.0789 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2023-12-24T21:25:10.0589494Z"}

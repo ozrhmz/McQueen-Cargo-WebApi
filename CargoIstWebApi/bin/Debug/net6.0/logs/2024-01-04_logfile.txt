@@ -1,0 +1,118 @@
+2024-01-04 12:22:11.4806 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-04T09:22:11.3592732Z"}
+2024-01-04 12:25:10.2713 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementById","Id":null,"CreateAt":"2024-01-04T09:25:10.2710686Z"}
+2024-01-04 12:25:46.5232 ERROR Something went wrong: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.CargoMovementManager.GetOneCargoMovementByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoMovementManager.cs:line 71
+   at Presentation.Controllers.CargoMovementController.GetOneCargoMovementByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CargoMovementController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-04 12:26:19.8222 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetAllCargoMovements","Id":null,"CreateAt":"2024-01-04T09:26:19.822172Z"}
+2024-01-04 12:26:47.1792 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T09:26:47.1791643Z"}
+2024-01-04 12:26:53.1066 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T09:26:53.1065165Z"}
+2024-01-04 12:26:55.7477 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T09:26:55.7476908Z"}
+2024-01-04 12:27:22.6131 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T09:27:22.6131059Z"}
+2024-01-04 12:31:39.4598 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-04T09:31:39.4597239Z"}
+2024-01-04 12:31:40.4186 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CargoNotFoundException: The cargo with id:2 could not found.
+   at Services.CargoManager.GetOneCargoAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 238
+   at Services.CargoManager.GetOneCargoByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 176
+   at Presentation.Controllers.CargoController.GetOneCargoWithId(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CargoController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-04 12:31:45.5638 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-04T09:31:45.5637871Z"}
+2024-01-04 12:31:46.0231 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CargoNotFoundException: The cargo with id:3 could not found.
+   at Services.CargoManager.GetOneCargoAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 238
+   at Services.CargoManager.GetOneCargoByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 176
+   at Presentation.Controllers.CargoController.GetOneCargoWithId(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CargoController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-04 12:31:49.3511 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-04T09:31:49.3510624Z"}
+2024-01-04 12:31:49.8799 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.CargoNotFoundException: The cargo with id:4 could not found.
+   at Services.CargoManager.GetOneCargoAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 238
+   at Services.CargoManager.GetOneCargoByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\CargoManager.cs:line 176
+   at Presentation.Controllers.CargoController.GetOneCargoWithId(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\CargoController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-01-04 12:31:53.5493 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetOneCargoWithId","Id":null,"CreateAt":"2024-01-04T09:31:53.5492834Z"}
+2024-01-04 12:32:56.8577 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-04T09:32:56.8576309Z"}
+2024-01-04 12:33:14.9562 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-04T09:33:14.9561274Z"}
+2024-01-04 12:39:59.7908 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2024-01-04T09:39:59.7907076Z"}
+2024-01-04 12:51:33.1379 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T09:51:33.1378742Z"}
+2024-01-04 12:54:17.2673 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T09:54:17.2672973Z"}
+2024-01-04 13:00:49.4619 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T10:00:49.4618991Z"}
+2024-01-04 13:11:25.9710 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T10:11:25.970915Z"}
+2024-01-04 13:12:40.6045 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T10:12:40.6044784Z"}
+2024-01-04 13:20:04.7464 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T10:20:04.7463763Z"}
+2024-01-04 13:52:33.8261 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2024-01-04T10:52:33.8261236Z"}
+2024-01-04 13:52:38.3255 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T10:52:38.3255278Z"}
+2024-01-04 13:52:38.3255 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T10:52:38.3392489Z"}
+2024-01-04 13:52:41.3469 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T10:52:41.3469358Z"}
+2024-01-04 13:52:41.3607 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"GetOneCargoMovementWithCargoById","Id":null,"CreateAt":"2024-01-04T10:52:41.3607666Z"}
+2024-01-04 18:27:52.0399 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T15:27:52.0398498Z"}
+2024-01-04 18:28:26.2813 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T15:28:26.2811108Z"}
+2024-01-04 18:28:55.1213 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-04T15:28:55.1212368Z"}
+2024-01-04 18:29:35.4875 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2024-01-04T15:29:35.4875346Z"}
+2024-01-04 18:30:04.5750 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2024-01-04T15:30:04.5749413Z"}
+2024-01-04 18:31:21.8271 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2024-01-04T15:31:21.8271337Z"}

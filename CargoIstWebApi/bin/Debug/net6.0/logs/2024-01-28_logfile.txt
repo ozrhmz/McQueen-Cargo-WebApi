@@ -1,0 +1,3 @@
+2024-01-28 19:28:57.7685 WARN ValidateUser : Authentication failed. Wrong username or password
+2024-01-28 19:29:44.8939 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesOkByEmployeeId","Id":null,"CreateAt":"2024-01-28T16:29:44.8902041Z"}
+2024-01-28 19:29:56.4789 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetCargoesByEmployeeId","Id":null,"CreateAt":"2024-01-28T16:29:56.4789258Z"}

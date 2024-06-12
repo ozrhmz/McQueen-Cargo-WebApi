@@ -1,0 +1,1 @@
+2024-01-02 21:05:54.5324 INFO {"ModelName":"OnActionExecuting","Controller":"CargoMovement","Action":"CreateOneCargoMovement","Id":null,"CreateAt":"2024-01-02T18:05:54.4926352Z"}

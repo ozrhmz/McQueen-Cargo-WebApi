@@ -1,0 +1,540 @@
+2023-12-17 13:48:42.7691 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2023-12-17T10:48:42.7494376Z"}
+2023-12-17 13:49:06.8366 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:49:06.8365324Z"}
+2023-12-17 13:49:06.8366 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:49:06.8409295Z"}
+2023-12-17 13:51:29.5400 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:51:29.5399657Z"}
+2023-12-17 13:51:29.5400 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:51:29.5400146Z"}
+2023-12-17 13:52:13.4327 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:52:13.4326359Z"}
+2023-12-17 13:52:13.4674 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:52:13.4658248Z"}
+2023-12-17 13:53:03.5292 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:53:03.5291726Z"}
+2023-12-17 13:53:03.5428 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:53:03.5427235Z"}
+2023-12-17 13:53:08.0544 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T10:53:08.0544218Z"}
+2023-12-17 17:59:30.9301 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-12-17T14:59:30.8822557Z"}
+2023-12-17 19:47:03.6007 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/cargo" for actions - Presentation.Controllers.CargoController.GetAllCargoAsync (Presentation),Presentation.Controllers.CargoController.GetAllCargoWithTcNoAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 19:49:53.2086 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargo","Id":null,"CreateAt":"2023-12-17T16:49:53.188148Z"}
+2023-12-17 19:50:19.1915 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-17T16:50:19.1914861Z"}
+2023-12-17 19:50:31.7634 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2023-12-17T16:50:31.7632036Z"}
+2023-12-17 19:51:42.8524 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2023-12-17T16:51:42.8294234Z"}
+2023-12-17 19:55:46.5065 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerId","Id":null,"CreateAt":"2023-12-17T16:55:46.4868161Z"}
+2023-12-17 19:55:56.2360 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T16:55:56.2360367Z"}
+2023-12-17 19:56:01.5182 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithBranchId","Id":null,"CreateAt":"2023-12-17T16:56:01.5182243Z"}
+2023-12-17 19:56:07.2221 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithBranchId","Id":null,"CreateAt":"2023-12-17T16:56:07.2221277Z"}
+2023-12-17 19:56:14.9672 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T16:56:14.9672592Z"}
+2023-12-17 19:56:27.8820 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressWithCustomerId","Id":null,"CreateAt":"2023-12-17T16:56:27.8820378Z"}
+2023-12-17 19:58:49.8026 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetAllBranches","Id":null,"CreateAt":"2023-12-17T16:58:49.7836391Z"}
+2023-12-17 20:02:48.2976 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressBanch","Id":null,"CreateAt":"2023-12-17T17:02:48.2763957Z"}
+2023-12-17 20:03:00.3562 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithBranchId","Id":null,"CreateAt":"2023-12-17T17:03:00.3561862Z"}
+2023-12-17 20:05:09.0795 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:09:55.9829 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:10:26.1744 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:10:43.2230 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:12:43.1433 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:13:32.0615 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/branch" for actions - Presentation.Controllers.BranchController.GetAllBranchesAsync (Presentation),Presentation.Controllers.BranchController.GetOneBranchAsync (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:17:29.0368 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetAllBranches","Id":null,"CreateAt":"2023-12-17T17:17:29.011175Z"}
+2023-12-17 20:17:50.1675 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"CreateOneBranch","Id":null,"CreateAt":"2023-12-17T17:17:50.1674898Z"}
+2023-12-17 20:17:55.7817 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetOneBranch","Id":null,"CreateAt":"2023-12-17T17:17:55.7817082Z"}
+2023-12-17 20:18:07.6403 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"UpdateOneBranch","Id":null,"CreateAt":"2023-12-17T17:18:07.6402519Z"}
+2023-12-17 20:18:17.2212 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetOneBranch","Id":null,"CreateAt":"2023-12-17T17:18:17.2211932Z"}
+2023-12-17 20:18:21.1185 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"GetAllBranches","Id":null,"CreateAt":"2023-12-17T17:18:21.1185092Z"}
+2023-12-17 20:18:26.6779 INFO {"ModelName":"OnActionExecuting","Controller":"Branch","Action":"DeleteOneBranch","Id":null,"CreateAt":"2023-12-17T17:18:26.677939Z"}
+2023-12-17 20:20:05.1636 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2023-12-17T17:20:05.1445011Z"}
+2023-12-17 20:20:14.8446 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-17T17:20:14.8446075Z"}
+2023-12-17 20:20:27.0110 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2023-12-17T17:20:27.0110187Z"}
+2023-12-17 20:21:21.1570 INFO {"ModelName":"OnActionExecuting","Controller":"Cargo","Action":"GetAllCargoWithTcNo","Id":null,"CreateAt":"2023-12-17T17:21:21.137031Z"}
+2023-12-17 20:23:28.1756 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetOneCustomers","Id":null,"CreateAt":"2023-12-17T17:23:28.1535563Z"}
+2023-12-17 20:23:43.3143 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-17T17:23:43.3142587Z"}
+2023-12-17 20:23:52.7136 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-17T17:23:52.7136372Z"}
+2023-12-17 20:23:59.9141 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-12-17T17:23:59.9140835Z"}
+2023-12-17 20:24:07.3261 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-17T17:24:07.3261312Z"}
+2023-12-17 20:26:25.5713 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/customerMobil/id" for actions - Presentation.Controllers.CustomerMobilController.GetOneCustomerMobilAsync (Presentation),Presentation.Controllers.CustomerMobilController.GetCustomerIdWithAddress (Presentation). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 20:27:10.9168 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-17T17:27:10.9133802Z"}
+2023-12-17 20:27:21.8719 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-17T17:27:21.8719026Z"}
+2023-12-17 21:48:30.2410 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T18:48:30.2152601Z"}
+2023-12-17 21:50:19.1971 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-17T18:50:19.1773268Z"}
+2023-12-17 21:51:10.9236 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T18:51:10.9235985Z"}
+2023-12-17 21:54:29.0500 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T18:54:29.0311896Z"}
+2023-12-17 21:54:46.1370 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T18:54:46.1370166Z"}
+2023-12-17 21:54:59.3543 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T18:54:59.3543514Z"}
+2023-12-17 21:55:03.3748 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T18:55:03.374835Z"}
+2023-12-17 21:55:11.9005 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T18:55:11.9005047Z"}
+2023-12-17 21:55:57.7233 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T18:55:57.7233361Z"}
+2023-12-17 22:01:11.4429 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-12-17T19:01:11.4237843Z"}
+2023-12-17 22:01:26.4833 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:01:26.4832718Z"}
+2023-12-17 22:01:54.2266 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:01:54.2266291Z"}
+2023-12-17 22:01:54.2266 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:01:54.2266514Z"}
+2023-12-17 22:03:09.5978 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:03:09.5978095Z"}
+2023-12-17 22:03:18.0358 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:03:14.5301733Z"}
+2023-12-17 22:04:26.0575 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:04:26.0382773Z"}
+2023-12-17 22:04:46.1459 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:04:46.1458878Z"}
+2023-12-17 22:06:40.2639 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:06:40.2443777Z"}
+2023-12-17 22:08:30.0707 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:08:30.0689674Z"}
+2023-12-17 22:08:33.6356 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:08:33.6355696Z"}
+2023-12-17 22:08:42.1382 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:08:42.1381842Z"}
+2023-12-17 22:08:42.5430 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:08:42.5429845Z"}
+2023-12-17 22:08:48.8529 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:08:48.8528843Z"}
+2023-12-17 22:10:39.6030 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:10:39.5827113Z"}
+2023-12-17 22:17:53.0928 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:17:53.0927787Z"}
+2023-12-17 22:18:37.2923 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"CreateOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:18:37.292281Z"}
+2023-12-17 22:18:52.8704 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:18:52.8704669Z"}
+2023-12-17 22:18:52.8955 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:18:52.8955681Z"}
+2023-12-17 22:19:05.6909 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:05.6901012Z"}
+2023-12-17 22:19:05.6909 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:05.6952011Z"}
+2023-12-17 22:19:05.9831 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:19:05.9831408Z"}
+2023-12-17 22:19:20.7119 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:20.7119103Z"}
+2023-12-17 22:19:20.7119 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:20.7137036Z"}
+2023-12-17 22:19:37.5120 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:37.5120235Z"}
+2023-12-17 22:19:37.5120 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:19:37.5157992Z"}
+2023-12-17 22:20:13.2856 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:20:13.2856281Z"}
+2023-12-17 22:20:13.2978 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:20:13.2976729Z"}
+2023-12-17 22:20:59.4550 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:20:59.454783Z"}
+2023-12-17 22:20:59.4550 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:20:59.4564939Z"}
+2023-12-17 22:20:59.8318 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:20:59.8317899Z"}
+2023-12-17 22:20:59.9082 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:20:59.9082304Z"}
+2023-12-17 22:21:08.4022 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetAllCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:21:08.4021738Z"}
+2023-12-17 22:21:30.3660 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:21:30.3660185Z"}
+2023-12-17 22:22:02.5310 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:22:02.5310066Z"}
+2023-12-17 22:22:21.8392 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:22:21.8391817Z"}
+2023-12-17 22:22:35.4155 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:22:35.4155281Z"}
+2023-12-17 22:22:39.2589 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:39.2588622Z"}
+2023-12-17 22:22:39.2813 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:39.2812174Z"}
+2023-12-17 22:22:42.0275 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:42.0274885Z"}
+2023-12-17 22:22:42.0275 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:42.0302701Z"}
+2023-12-17 22:22:44.6697 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:44.669649Z"}
+2023-12-17 22:22:44.6929 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:44.6928448Z"}
+2023-12-17 22:22:51.0910 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:51.0910029Z"}
+2023-12-17 22:22:51.1089 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:51.1089245Z"}
+2023-12-17 22:22:55.9369 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:55.9368368Z"}
+2023-12-17 22:22:55.9602 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:22:55.9601756Z"}
+2023-12-17 22:23:04.0275 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:04.02745Z"}
+2023-12-17 22:23:04.0275 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:04.0298856Z"}
+2023-12-17 22:23:07.7021 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:07.7020728Z"}
+2023-12-17 22:23:07.7274 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:07.7273792Z"}
+2023-12-17 22:23:16.3091 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:16.3090845Z"}
+2023-12-17 22:23:16.3091 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:16.3119506Z"}
+2023-12-17 22:23:17.5086 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:17.5086412Z"}
+2023-12-17 22:23:17.5086 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:17.5130702Z"}
+2023-12-17 22:23:20.7050 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:20.7050305Z"}
+2023-12-17 22:23:20.7484 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:20.7482517Z"}
+2023-12-17 22:23:21.6057 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:21.6057264Z"}
+2023-12-17 22:23:21.6295 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:21.6294775Z"}
+2023-12-17 22:23:23.7111 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:23.7110783Z"}
+2023-12-17 22:23:23.7215 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:23:23.7215317Z"}
+2023-12-17 22:24:35.0554 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:24:35.0548167Z"}
+2023-12-17 22:24:35.0554 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:24:35.056465Z"}
+2023-12-17 22:26:58.8950 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:26:58.8949431Z"}
+2023-12-17 22:26:58.8950 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:26:58.9026852Z"}
+2023-12-17 22:27:14.5901 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:27:14.5901611Z"}
+2023-12-17 22:27:14.5901 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:27:14.5938175Z"}
+2023-12-17 22:27:31.3341 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:27:31.3341086Z"}
+2023-12-17 22:27:37.5695 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:27:37.5695144Z"}
+2023-12-17 22:28:20.7152 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:20.7039443Z"}
+2023-12-17 22:28:43.1387 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.1386351Z"}
+2023-12-17 22:28:43.1828 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.1823013Z"}
+2023-12-17 22:28:43.1885 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.1885395Z"}
+2023-12-17 22:28:43.2152 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.2151406Z"}
+2023-12-17 22:28:43.2211 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.221115Z"}
+2023-12-17 22:28:43.2470 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.2470582Z"}
+2023-12-17 22:28:43.2745 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.2744853Z"}
+2023-12-17 22:28:43.3032 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3032755Z"}
+2023-12-17 22:28:43.3032 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3110901Z"}
+2023-12-17 22:28:43.3370 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3370126Z"}
+2023-12-17 22:28:43.3499 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3498872Z"}
+2023-12-17 22:28:43.3499 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3543739Z"}
+2023-12-17 22:28:43.3991 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.3983902Z"}
+2023-12-17 22:28:43.3991 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.4006744Z"}
+2023-12-17 22:28:43.4211 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.4211542Z"}
+2023-12-17 22:28:43.4487 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.4479554Z"}
+2023-12-17 22:28:43.4697 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.4696988Z"}
+2023-12-17 22:28:43.5004 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.5004651Z"}
+2023-12-17 22:28:43.5166 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.5165858Z"}
+2023-12-17 22:28:43.5398 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.5398093Z"}
+2023-12-17 22:28:43.6003 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.6003111Z"}
+2023-12-17 22:28:43.6169 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.6168823Z"}
+2023-12-17 22:28:43.6321 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.6302506Z"}
+2023-12-17 22:28:43.6987 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.6986888Z"}
+2023-12-17 22:28:43.6987 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.7010065Z"}
+2023-12-17 22:28:43.7250 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.7250536Z"}
+2023-12-17 22:28:43.7250 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.7300598Z"}
+2023-12-17 22:28:43.7543 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.754296Z"}
+2023-12-17 22:28:43.7543 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.7594581Z"}
+2023-12-17 22:28:43.8298 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.8298572Z"}
+2023-12-17 22:28:43.8298 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.8340049Z"}
+2023-12-17 22:28:43.8525 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.8525181Z"}
+2023-12-17 22:28:43.8805 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.8798682Z"}
+2023-12-17 22:28:43.9038 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.902979Z"}
+2023-12-17 22:28:43.9154 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:28:43.9146993Z"}
+2023-12-17 22:29:18.8012 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:29:18.8012491Z"}
+2023-12-17 22:29:37.8203 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:29:37.820325Z"}
+2023-12-17 22:29:37.8464 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:29:37.8462261Z"}
+2023-12-17 22:29:52.4093 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:29:52.4092855Z"}
+2023-12-17 22:29:52.4093 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:29:52.4095784Z"}
+2023-12-17 22:29:52.8244 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:29:52.8243798Z"}
+2023-12-17 22:29:52.8244 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:29:52.8258767Z"}
+2023-12-17 22:30:00.7089 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:30:00.7089277Z"}
+2023-12-17 22:30:07.7923 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:30:07.7922676Z"}
+2023-12-17 22:30:19.7183 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:30:19.7182856Z"}
+2023-12-17 22:30:43.7841 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:30:43.7841057Z"}
+2023-12-17 22:30:43.7841 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:30:43.7859386Z"}
+2023-12-17 22:30:49.9155 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:30:49.9155206Z"}
+2023-12-17 22:30:49.9294 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:30:49.9294064Z"}
+2023-12-17 22:31:04.2033 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:04.203276Z"}
+2023-12-17 22:31:04.2169 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:04.2169315Z"}
+2023-12-17 22:31:12.5782 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:12.5781976Z"}
+2023-12-17 22:31:12.5823 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:12.5823084Z"}
+2023-12-17 22:31:12.9499 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:31:12.9499624Z"}
+2023-12-17 22:31:12.9499 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:31:12.9507255Z"}
+2023-12-17 22:31:44.0714 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:44.0714432Z"}
+2023-12-17 22:31:44.0897 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:31:44.0893081Z"}
+2023-12-17 22:31:44.3813 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:31:44.3812528Z"}
+2023-12-17 22:31:44.3813 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:31:44.3880143Z"}
+2023-12-17 22:31:57.0320 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:31:57.0319598Z"}
+2023-12-17 22:32:22.5746 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:32:22.5746085Z"}
+2023-12-17 22:32:48.7486 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:32:48.7485447Z"}
+2023-12-17 22:32:48.7680 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"UserLogin","Id":null,"CreateAt":"2023-12-17T19:32:48.7680341Z"}
+2023-12-17 22:33:05.2226 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:33:05.222606Z"}
+2023-12-17 22:33:15.4643 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:33:15.4642826Z"}
+2023-12-17 22:33:20.3387 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:33:20.3387386Z"}
+2023-12-17 22:34:37.7109 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:34:37.7109098Z"}
+2023-12-17 22:35:22.4529 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:35:22.4521966Z"}
+2023-12-17 22:35:22.4651 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:35:22.4649962Z"}
+2023-12-17 22:35:25.5875 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:35:25.5874056Z"}
+2023-12-17 22:39:55.9869 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:39:55.9855963Z"}
+2023-12-17 22:39:56.0051 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:39:56.0049451Z"}
+2023-12-17 22:39:59.3833 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:39:59.3833059Z"}
+2023-12-17 22:40:19.3048 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-12-17T19:40:19.3048317Z"}
+2023-12-17 22:40:28.9380 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:40:28.9380316Z"}
+2023-12-17 22:40:42.4090 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-12-17T19:40:42.4089828Z"}
+2023-12-17 22:40:54.4258 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:40:54.4258161Z"}
+2023-12-17 22:40:54.4700 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:40:54.4697582Z"}
+2023-12-17 22:40:57.5258 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:40:57.5258235Z"}
+2023-12-17 22:41:21.1215 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:41:21.1214361Z"}
+2023-12-17 22:41:21.4499 ERROR Something went wrong: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Addresses_Country_CountryId". The conflict occurred in database "McQueenCargoDb", table "dbo.Country", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:0efe45ba-7b8e-4f50-80b5-a7d1138904f0
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Repositories.EFCore.RepositoryManager.SaveAsync() in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Repositories\EFCore\RepositoryManager.cs:line 98
+   at Services.AddressManager.CreateOneAddressMobilAsync(AddressDtoForInsertion addressDto, Int32 customerMobilId) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 58
+   at Presentation.Controllers.AddressController.CreateOneAddressMobilAsync(Int32 customerMobilId, AddressDtoForInsertion addressDto)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:41:32.6449 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:41:32.644854Z"}
+2023-12-17 22:41:35.8263 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:41:35.8263023Z"}
+2023-12-17 22:41:38.2348 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:41:38.2347847Z"}
+2023-12-17 22:42:26.1990 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:42:26.1794337Z"}
+2023-12-17 22:42:40.9826 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-12-17T19:42:40.9826105Z"}
+2023-12-17 22:43:15.2340 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:43:15.2340026Z"}
+2023-12-17 22:43:25.8698 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:43:25.8697881Z"}
+2023-12-17 22:43:45.5090 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:43:45.4845465Z"}
+2023-12-17 22:43:47.1002 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:43:47.1002243Z"}
+2023-12-17 22:44:10.2125 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddresses","Id":null,"CreateAt":"2023-12-17T19:44:10.2124736Z"}
+2023-12-17 22:44:42.4470 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:44:42.44699Z"}
+2023-12-17 22:44:42.5027 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:44:42.5027088Z"}
+2023-12-17 22:44:48.7539 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:44:48.7539285Z"}
+2023-12-17 22:44:48.7539 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:44:48.7643187Z"}
+2023-12-17 22:44:58.1762 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:44:58.1762368Z"}
+2023-12-17 22:45:06.7571 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:45:06.7571711Z"}
+2023-12-17 22:45:33.6571 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-12-17T19:45:33.6571762Z"}
+2023-12-17 22:45:57.0358 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:45:57.0357778Z"}
+2023-12-17 22:46:37.5157 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:46:37.5157067Z"}
+2023-12-17 22:47:08.3798 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-12-17T19:47:08.3798523Z"}
+2023-12-17 22:47:27.9385 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddress","Id":null,"CreateAt":"2023-12-17T19:47:27.9385168Z"}
+2023-12-17 22:47:54.9332 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:47:54.9331462Z"}
+2023-12-17 22:47:58.5711 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:47:58.5710539Z"}
+2023-12-17 22:48:37.1174 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:48:37.1174162Z"}
+2023-12-17 22:48:40.3873 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:48:40.3872829Z"}
+2023-12-17 22:49:06.1768 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:49:06.1768024Z"}
+2023-12-17 22:49:12.7955 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:49:12.7955285Z"}
+2023-12-17 22:50:11.4751 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"CreateOneReceiver","Id":null,"CreateAt":"2023-12-17T19:50:11.4751563Z"}
+2023-12-17 22:51:01.9625 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"CreateOneReceiver","Id":null,"CreateAt":"2023-12-17T19:51:01.9624728Z"}
+2023-12-17 22:51:15.4504 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:51:15.4503948Z"}
+2023-12-17 22:51:37.1365 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:51:37.1364875Z"}
+2023-12-17 22:51:49.6538 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:51:49.6537728Z"}
+2023-12-17 22:51:53.7519 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:51:53.7518666Z"}
+2023-12-17 22:53:24.5383 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:53:24.538224Z"}
+2023-12-17 22:53:24.5490 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:53:24.547791Z"}
+2023-12-17 22:53:36.4349 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:53:36.4349033Z"}
+2023-12-17 22:53:40.6747 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:53:40.6746493Z"}
+2023-12-17 22:53:56.6303 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:53:56.6302915Z"}
+2023-12-17 22:54:21.3013 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:54:21.3013759Z"}
+2023-12-17 22:54:22.4189 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:54:22.4189438Z"}
+2023-12-17 22:54:38.8602 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:54:38.8601608Z"}
+2023-12-17 22:54:40.5487 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:54:40.5486714Z"}
+2023-12-17 22:54:42.7770 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:54:42.7769684Z"}
+2023-12-17 22:55:00.2239 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"CreateOneAddressMobil","Id":null,"CreateAt":"2023-12-17T19:55:00.2238896Z"}
+2023-12-17 22:55:00.3457 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:55:00.3456778Z"}
+2023-12-17 22:55:03.1889 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:03.1889022Z"}
+2023-12-17 22:55:04.9963 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:04.9962787Z"}
+2023-12-17 22:55:06.4164 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:06.4163589Z"}
+2023-12-17 22:55:17.9007 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:17.9007463Z"}
+2023-12-17 22:55:20.4438 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:20.4437892Z"}
+2023-12-17 22:55:21.5770 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:21.5769544Z"}
+2023-12-17 22:55:24.8875 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:24.8874789Z"}
+2023-12-17 22:55:26.9803 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:26.9802928Z"}
+2023-12-17 22:55:28.4789 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:28.4789158Z"}
+2023-12-17 22:55:29.4445 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:29.4445323Z"}
+2023-12-17 22:55:30.8035 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:30.8034894Z"}
+2023-12-17 22:55:31.8742 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:31.8742259Z"}
+2023-12-17 22:55:32.0711 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:55:34.4574 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:34.4574388Z"}
+2023-12-17 22:55:34.5985 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:55:43.8361 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:43.8361313Z"}
+2023-12-17 22:55:43.9501 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:55:47.7991 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:47.7991414Z"}
+2023-12-17 22:55:49.7889 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:49.7888948Z"}
+2023-12-17 22:55:51.2876 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:51.2875773Z"}
+2023-12-17 22:55:52.4093 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:55:52.4093013Z"}
+2023-12-17 22:55:54.3124 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:55:54.3123874Z"}
+2023-12-17 22:55:55.0976 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:55:55.0976123Z"}
+2023-12-17 22:55:56.7109 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:55:56.7108998Z"}
+2023-12-17 22:55:59.6079 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:55:59.6079212Z"}
+2023-12-17 22:56:00.2618 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:56:00.2617471Z"}
+2023-12-17 22:56:06.6085 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:56:06.6085315Z"}
+2023-12-17 22:56:09.0624 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:56:09.0624256Z"}
+2023-12-17 22:56:09.6978 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:09.6977471Z"}
+2023-12-17 22:56:09.8732 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:56:10.5933 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:10.5933191Z"}
+2023-12-17 22:56:11.7234 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:11.7233985Z"}
+2023-12-17 22:56:13.4628 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:13.4627662Z"}
+2023-12-17 22:56:14.2907 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:14.2907185Z"}
+2023-12-17 22:56:20.3905 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:56:20.3905237Z"}
+2023-12-17 22:56:20.4561 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:56:20.4559603Z"}
+2023-12-17 22:56:23.7360 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:56:23.7360537Z"}
+2023-12-17 22:56:24.4314 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:56:24.4314207Z"}
+2023-12-17 22:56:26.2738 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:56:26.2737487Z"}
+2023-12-17 22:56:27.0069 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:27.0069224Z"}
+2023-12-17 22:56:28.1202 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:28.120235Z"}
+2023-12-17 22:56:29.1686 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:29.1686484Z"}
+2023-12-17 22:56:30.1878 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:30.1877974Z"}
+2023-12-17 22:56:31.8984 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:31.8984527Z"}
+2023-12-17 22:56:32.0650 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 22:56:32.8833 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:32.8832475Z"}
+2023-12-17 22:56:34.1532 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:34.1532414Z"}
+2023-12-17 22:56:35.4816 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:35.4816112Z"}
+2023-12-17 22:56:37.2744 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:37.274416Z"}
+2023-12-17 22:56:38.4155 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:38.4154986Z"}
+2023-12-17 22:56:39.4208 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:39.4208081Z"}
+2023-12-17 22:56:40.5684 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T19:56:40.5684622Z"}
+2023-12-17 22:57:13.2103 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:57:13.2102825Z"}
+2023-12-17 22:57:13.2278 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T19:57:13.2276859Z"}
+2023-12-17 22:57:16.6890 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T19:57:16.6890664Z"}
+2023-12-17 22:57:17.3588 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T19:57:17.3587846Z"}
+2023-12-17 22:58:02.6844 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T19:58:02.6843845Z"}
+2023-12-17 22:58:18.6465 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T19:58:18.6464439Z"}
+2023-12-17 23:00:19.1523 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceivers","Id":null,"CreateAt":"2023-12-17T20:00:19.1522305Z"}
+2023-12-17 23:00:58.1031 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:00:58.1030526Z"}
+2023-12-17 23:00:58.1218 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:00:58.1216543Z"}
+2023-12-17 23:01:01.1535 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T20:01:01.1535566Z"}
+2023-12-17 23:01:02.0222 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T20:01:02.0222123Z"}
+2023-12-17 23:01:06.9496 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T20:01:06.9496065Z"}
+2023-12-17 23:01:08.4278 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetOneReceiver","Id":null,"CreateAt":"2023-12-17T20:01:08.4278165Z"}
+2023-12-17 23:01:12.9642 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T20:01:12.9641698Z"}
+2023-12-17 23:01:14.5010 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T20:01:14.5010405Z"}
+2023-12-17 23:01:15.0668 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T20:01:15.0668454Z"}
+2023-12-17 23:01:15.1801 ERROR Something went wrong: Entities.Exceptions.NotFoundExceptions.AddressNotFoundException: The address with id:6 could not found.
+   at Services.AddressManager.GetOneAddressAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 257
+   at Services.AddressManager.GetOneAddressByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Services\AddressManager.cs:line 108
+   at Presentation.Controllers.AddressController.GetOneAddressByIdAsync(Int32 id) in C:\Users\hmzoz\source\repos\McQueenCargo\McQueenCargo\Presentation\Controllers\AddressController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-17 23:01:16.6358 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T20:01:16.6357476Z"}
+2023-12-17 23:01:17.8754 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T20:01:17.8753605Z"}
+2023-12-17 23:01:19.5168 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetOneAddressById","Id":null,"CreateAt":"2023-12-17T20:01:19.5167459Z"}
+2023-12-17 23:01:24.1691 INFO {"ModelName":"OnActionExecuting","Controller":"Address","Action":"GetAllAddressesWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T20:01:24.1691132Z"}
+2023-12-17 23:01:25.8374 INFO {"ModelName":"OnActionExecuting","Controller":"Receiver","Action":"GetAllReceiversWithCustomerMobilId","Id":null,"CreateAt":"2023-12-17T20:01:25.8374063Z"}
+2023-12-17 23:01:32.1910 INFO {"ModelName":"OnActionExecuting","Controller":"CargoParcelType","Action":"GetAllCargoParcelType","Id":null,"CreateAt":"2023-12-17T20:01:32.1909622Z"}
+2023-12-17 23:01:50.2601 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:01:50.2601003Z"}
+2023-12-17 23:01:50.2601 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:01:50.2629742Z"}
+2023-12-17 23:01:53.6541 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:01:53.6541677Z"}
+2023-12-17 23:01:53.6623 INFO {"ModelName":"OnActionExecuting","Controller":"CustomerMobil","Action":"GetOneCustomerMobil","Id":null,"CreateAt":"2023-12-17T20:01:53.6623651Z"}

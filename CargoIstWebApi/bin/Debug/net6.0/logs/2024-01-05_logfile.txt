@@ -1,0 +1,2 @@
+2024-01-05 20:33:07.5083 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2024-01-05T17:33:07.3815886Z"}
+2024-01-05 21:18:33.5238 INFO {"ModelName":"OnActionExecuting","Controller":"CargoStatus","Action":"GetAllCargoStatus","Id":null,"CreateAt":"2024-01-05T18:18:33.5234617Z"}

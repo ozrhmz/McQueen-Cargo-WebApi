@@ -1,0 +1,40 @@
+﻿@using Entities.DTO_s.Cargo
+@model CargoDto
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kargo Yönetim Paneli</title>
+    <style>
+        h1 {
+            color: red;
+            margin-bottom: 3%;
+        }
+
+        .BodyDiv {
+            margin-left: 13%;
+        }
+    </style>
+</head>
+<body>
+    <div class="BodyDiv">
+        <h1>Kargo Yönetimi</h1>
+        <div class="row">
+            <div class="coll-md-6">
+                <form action="Test" method="post">
+                    <div class="form-group">
+                        <label asp-for="CargoTrackingNo">Kargo Takip Numarası</label>
+                        <input asp-for="CargoTrackingNo" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <input type="submit" value="Göster" class="btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,153 @@
+2023-12-10 13:50:39.9182 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"CreateOneCallCourier","Id":null,"CreateAt":"2023-12-10T10:50:39.8948491Z"}
+2023-12-10 13:50:58.3765 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourierWithByTcno","Id":null,"CreateAt":"2023-12-10T10:50:58.3764391Z"}
+2023-12-10 14:16:03.5658 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2023-12-10T11:16:03.529739Z"}
+2023-12-10 14:17:12.4242 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:17:12.4043354Z"}
+2023-12-10 14:21:57.4768 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:21:57.4577385Z"}
+2023-12-10 14:22:12.7236 ERROR Something went wrong: System.InvalidOperationException: The expression 'ca.CustomerMobilAdressId' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Repositories.EFCore.CallCourierRepository.GetOneCallCarierByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Repositories\EFCore\CallCourierRepository.cs:line 93
+   at Services.CallCourierManager.GetOneCallCourierAndCheckExist(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\CallCourierManager.cs:line 183
+   at Services.CallCourierManager.GetOneCallCarierByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Services\CallCourierManager.cs:line 134
+   at Presentation.Controllers.CallCourierController.GetOneCallCourierWithById(Int32 id) in C:\Users\hmzoz\Source\Repos\CargoApiMvc\CargoIstWebApi\Presentation\Controllers\CallCourierController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-10 14:23:40.0868 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:23:40.0677253Z"}
+2023-12-10 14:27:54.5799 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:27:54.5615599Z"}
+2023-12-10 14:31:58.6395 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:31:58.620504Z"}
+2023-12-10 14:32:43.7792 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetOneCallCourierWithById","Id":null,"CreateAt":"2023-12-10T11:32:43.7603922Z"}
+2023-12-10 14:35:54.9659 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"UpdateOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:35:54.9659376Z"}
+2023-12-10 14:45:26.2183 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:45:26.1977025Z"}
+2023-12-10 14:45:44.6341 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:45:44.6341264Z"}
+2023-12-10 14:45:48.3508 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"11","CreateAt":"2023-12-10T11:45:48.3507365Z"}
+2023-12-10 14:46:06.2574 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:46:06.2362935Z"}
+2023-12-10 14:47:22.5205 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:47:22.5016983Z"}
+2023-12-10 14:47:47.0916 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"2","CreateAt":"2023-12-10T11:47:47.0916436Z"}
+2023-12-10 14:48:33.2978 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"DeleteOneCallCourier","Id":"3","CreateAt":"2023-12-10T11:48:33.2794517Z"}
+2023-12-10 14:48:47.2905 INFO {"ModelName":"OnActionExecuting","Controller":"CallCourier","Action":"GetAllCourier","Id":null,"CreateAt":"2023-12-10T11:48:47.290499Z"}
+2023-12-10 16:07:33.0528 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetAllEmployee","Id":null,"CreateAt":"2023-12-10T13:07:33.0339913Z"}
+2023-12-10 16:08:13.3131 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"CreateOneEmployee","Id":null,"CreateAt":"2023-12-10T13:08:13.3131491Z"}
+2023-12-10 16:08:20.1498 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetOneEmployee","Id":"3","CreateAt":"2023-12-10T13:08:20.149714Z"}
+2023-12-10 16:08:45.9722 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"UpdateOneEmployee","Id":"3","CreateAt":"2023-12-10T13:08:45.9722663Z"}
+2023-12-10 16:08:49.4931 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetOneEmployee","Id":"3","CreateAt":"2023-12-10T13:08:49.4930921Z"}
+2023-12-10 16:08:54.3291 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"DeleteOneemployee","Id":"3","CreateAt":"2023-12-10T13:08:54.3291351Z"}
+2023-12-10 16:14:25.3968 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetCustomerTCNoWithAddress","Id":null,"CreateAt":"2023-12-10T13:14:25.3769265Z"}
+2023-12-10 16:14:34.2562 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomers","Id":null,"CreateAt":"2023-12-10T13:14:34.2561617Z"}
+2023-12-10 16:14:51.0117 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"GetEmployeeWithTcNo","Id":null,"CreateAt":"2023-12-10T13:14:51.0114779Z"}
+2023-12-10 16:25:59.1554 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - Presentation.Controllers.EmployeeController.UserLogin (Presentation). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - Presentation.Controllers.EmployeeController+LoginRequest. See inner exception
+ ---> System.InvalidOperationException: Can't use schemaId "$LoginRequest" for type "$Presentation.Controllers.EmployeeController+LoginRequest". The same schemaId is already used for type "$Presentation.Controllers.CustomerMobilController+LoginRequest"
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaRepository.RegisterType(Type type, String schemaId)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForParameter(Type modelType, SchemaRepository schemaRepository, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBodyFromBodyParameter(ApiDescription apiDescription, SchemaRepository schemaRepository, ApiParameterDescription bodyParameter)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBody(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-10 16:26:28.9691 ERROR Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - Presentation.Controllers.EmployeeController.UserLogin (Presentation). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - Presentation.Controllers.EmployeeController+LoginRequest. See inner exception
+ ---> System.InvalidOperationException: Can't use schemaId "$LoginRequest" for type "$Presentation.Controllers.EmployeeController+LoginRequest". The same schemaId is already used for type "$Presentation.Controllers.CustomerMobilController+LoginRequest"
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaRepository.RegisterType(Type type, String schemaId)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForParameter(Type modelType, SchemaRepository schemaRepository, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo, ApiParameterRouteInfo routeInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBodyFromBodyParameter(ApiDescription apiDescription, SchemaRepository schemaRepository, ApiParameterDescription bodyParameter)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBody(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-12-10 16:28:10.7758 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"CreateOneEmployee","Id":null,"CreateAt":"2023-12-10T13:28:10.7566837Z"}
+2023-12-10 16:28:33.5236 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"UserLoginEmployee","Id":null,"CreateAt":"2023-12-10T13:28:33.5235644Z"}
+2023-12-10 16:28:37.6491 INFO {"ModelName":"OnActionExecuting","Controller":"Employee","Action":"UserLoginEmployee","Id":null,"CreateAt":"2023-12-10T13:28:37.6490904Z"}
+2023-12-10 16:40:55.2289 INFO {"ModelName":"OnActionExecuting","Controller":"EmployeeType","Action":"GetAllEmployeeType","Id":null,"CreateAt":"2023-12-10T13:40:55.2101216Z"}
+2023-12-10 22:14:30.2144 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:14:30.1761601Z"}
+2023-12-10 22:14:36.4841 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:14:36.4841334Z"}
+2023-12-10 22:14:39.4273 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:14:39.4273076Z"}
+2023-12-10 22:16:11.7226 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:16:11.7040499Z"}
+2023-12-10 22:16:17.4346 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:16:17.4346385Z"}
+2023-12-10 22:16:20.2020 INFO {"ModelName":"OnActionExecuting","Controller":"Neighbourhood","Action":"GetAllNeighbourhoods","Id":null,"CreateAt":"2023-12-10T19:16:20.2020056Z"}

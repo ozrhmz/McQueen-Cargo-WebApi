@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Müşteri Listesi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 style="color:red; margin-left:5%; margin-bottom:3%;">Müşteri Yönetimi</h1>
+    <div class="container" style="margin-left:5%">
+        <input type="text" class="form-control" id="txtTcNo" placeholder="Tc Kimlik Numarası Giriniz" onkeyup="filter()" />
+        <div id="loading" style="display: none;">
+            <img src="~/img/truck.gif" alt="Loading..." />
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Ad</th>
+                    <th scope="col">Soyad</th>
+                    <th scope="col">Tc Numarası</th>
+                    <th scope="col">Telefon Numarası</th>
+                    <th scope="col">E-Mail</th>
+                    <th scope="col">Doğum Tarihi</th>
+                </tr>
+            </thead>
+            <tbody id="musteriListesi">
+                @foreach (var customer in Model)
+                {
+                    <tr>
+                        <td>@customer.Name</td>
+                        <td>@customer.Surname</td>
+                        <td>@customer.TCNo</td>
+                        <td>@customer.NumberPhone</td>
+                        <td>@customer.Email</td>
+                        <td>@customer.BirthDate</td>
+                        <td>
+                            <a class="btn btn-warning" asp-controller="CustomerUI" asp-action="UpdateCustomer" asp-route-id="@customer.Id">Güncelle</a>
+                            <a class="btn btn-danger" asp-controller="CustomerUI" asp-action="DeleteCustomer" asp-route-id="@customer.Id">Sil</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/Customer.js" asp-append-version="true"></script>
+</body>
+</html>

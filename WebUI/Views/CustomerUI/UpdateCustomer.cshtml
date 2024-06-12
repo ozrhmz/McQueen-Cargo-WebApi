@@ -1,0 +1,77 @@
+﻿@using Entities.DTO_s
+@model CustomerDto
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müşteri Yönetimi Güncelleme</title>
+    <style>
+        h1 {
+            color: red;
+            margin-bottom: 3%;
+        }
+        .BodyDiv{
+            margin-left: 13%;
+        }
+    </style>
+</head>
+<body>
+    <div class="BodyDiv">
+        <h1>Müşteri Yönetimi Güncelleme</h1>
+
+        <div class="row">
+            <div class="coll-md-6">
+                <form action="UpdateCustomer" method="post">
+                    <div class="form-group" style="display: none;">
+                        <label asp-for="Id">Id</label>
+                        <input asp-for="Id" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+
+                    <div class="form-group">
+                        <label asp-for="Name">İsim</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="Surname">Soyisim</label>
+                        <input type="text" asp-for="Surname" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="TCNo">T.C. Numarası</label>
+                        <input type="text" asp-for="TCNo" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="Email">E-Mail</label>
+                        <input type="text" asp-for="Email" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="NumberPhone">Telefon Numarası</label>
+                        <input type="text" asp-for="NumberPhone" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="BirthDate">Doğum Tarihi</label>
+                        <input type="text" asp-for="BirthDate" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div><br />
+                    <div class="form-group">
+                        <label asp-for="CreatedDate">Oluşturulma Tarihi</label>
+                        <input type="text" asp-for="CreatedDate" class="form-control" />
+                        <span class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Customer" class="btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
